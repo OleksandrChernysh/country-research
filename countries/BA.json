@@ -1,0 +1,125 @@
+{
+  "code": "BA",
+  "name": "Bosnia and Herzegovina",
+  "low_budget_country": true,
+  "spiritual_teacher": "Sufi dervish tekkes (Blagaj — famous mystical tekke by the Buna spring; 'Bosnian pyramids' in Visoko)",
+  "work_strategy": "Remote (Flat 10% personal income tax; Double Taxation Treaty with Ukraine)",
+  "it_market": "Weak (Small cluster of IT companies in Sarajevo and Banja Luka)",
+  "ua_fop_and_local_taxes": "First 183 days €0; then 10.88% (AMS-1035: €65–109/mo, Single Tax not credited), but legalization >3–6 months without a local company is blocked.",
+  "climate": "Temperate (Continental: hot summer, cool snowy winter in the mountains)",
+  "nature": "Mountains, rivers, forests (Stunning Kravice waterfalls, emerald Neretva, forested Dinaric Alps; symbolic sea access at Neum)",
+  "english_level": "Difficult (English mostly among students in the capital; Slavic language is somewhat intelligible)",
+  "housing_rent": "Cheapest in Europe (~€200–260 for a 1-bedroom apartment in Banja Luka or Sarajevo outskirts)",
+  "price_sources": {
+    "summary": "[Numbeo Bosnia](https://www.numbeo.com/cost-of-living/country_result.jsp?country=Bosnia+And+Herzegovina); rentals — [Olx.ba](https://olx.ba/kategorija/nekretnine/iznajmljivanje-stanova/23), [Realitica.com](https://www.realitica.com/rentals/Bosnia-and-Herzegovina/).",
+    "numbeo_mandatory_fields": [
+      "Estimated monthly costs for a single person without rent (food, transport, basic household)",
+      "Basic utilities (Electricity, Heating, Cooling, Water, Garbage) + Internet (Broadband)",
+      "Apartment (1 bedroom) Outside of Centre"
+    ]
+  },
+  "citizenship": "8 years (Complex naturalization process)",
+  "mortgage_expats": "Unavailable (Banking system does not lend to non-residents)",
+  "rent_to_buy": "None (Rent-to-own market is virtually nonexistent)",
+  "housing_portals": {
+    "items": [
+      "[Olx.ba](https://olx.ba/kategorija/nekretnine/iznajmljivanje-stanova/23) — #1 portal in Bosnia for everything, including direct owner rentals.",
+      "[Realitica.com](https://www.realitica.com/rentals/Bosnia-and-Herzegovina/) — Balkan real estate database."
+    ]
+  },
+  "ua_fop_tax_budget_2026": {
+    "notes": [
+      "**Strict conditions:** income `€600 / €750 / €800 / €1,000/mo` net after UA FOP Group 3; without opening a local company (*Obrt/Preduzetnik*); >1 year horizon."
+    ],
+    "legality_over_183d": "**Critical blocker** — no TP for Ukrainians and no Digital Nomad visa; visa-free stay limited (30/60 or 90/180). Staying >1 year without a local job contract, business, or study is impossible.",
+    "fbih_taxes_ams1035": [
+      "20% normative expense deduction → 80% tax base.",
+      "**4% health contribution** on 80% base (= `3.2%` of gross) + **10% PIT** on remaining `76.8%` (= `7.68%` of gross).",
+      "**Total effective rate = 10.88% flat** with no minimum threshold! (In Republika Srpska ~10% PIT)."
+    ],
+    "budget_baseline_460": [
+      "`€600/mo`: tax **€65.28** → net €534.72 → **balance `+€74.72/mo`**.",
+      "`€750/mo`: tax **€81.60** → net €668.40 → **balance `+€208.40/mo`**.",
+      "`€800/mo`: tax **€87.04** → net €712.96 → **balance `+€252.96/mo`**.",
+      "`€1,000/mo`: tax **€108.80** → net €891.20 → **balance `+€431.20/mo`**."
+    ],
+    "verdict": "Best tax math (`10.88%`), but **unsuitable for >1 year** due to lack of TP and visa-free stay limits."
+  },
+  "weather": {
+    "reference_city": "Banja Luka",
+    "coordinates": {
+      "lat": 44.7722,
+      "lon": 17.191
+    },
+    "annual_mean_c": 11.5,
+    "winter_djf_c": {
+      "mean": 0.9,
+      "min": -21.1,
+      "max": 18.3
+    },
+    "spring_mam_c": {
+      "mean": 11.1,
+      "min": -6.6,
+      "max": 28.2
+    },
+    "summer_jja_c": {
+      "mean": 22.1,
+      "min": 7.2,
+      "max": 39.8
+    },
+    "autumn_son_c": {
+      "mean": 11.9,
+      "min": -3.4,
+      "max": 30.1
+    },
+    "humidity_annual_pct": 76.6,
+    "heating_months_below_15c": 7,
+    "monthly_mean_c": {
+      "jan": -0.1,
+      "feb": 1.6,
+      "mar": 6.1,
+      "apr": 11.3,
+      "may": 16.0,
+      "jun": 20.3,
+      "jul": 23.0,
+      "aug": 23.0,
+      "sep": 17.2,
+      "oct": 12.0,
+      "nov": 6.5,
+      "dec": 1.1
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=44.7722&longitude=17.191&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=44.7722&longitude=17.191&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "fallback_budget": {
+    "city": "Banja Luka",
+    "rent_eur": "~250",
+    "living_eur": "~450",
+    "min_total_eur": "~700",
+    "medicine_logistics": "Difficult (far, no Nova Poshta)"
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "30",
+    "visa_free_days": 30,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard",
+  "tax_calc_model": {
+    "label": "Bosnia FBiH (no TP)",
+    "rent_eur": 230,
+    "living_other_eur": 300,
+    "pit_rate": 0.1,
+    "pit_threshold": 0.0,
+    "pit_mult": 1.0,
+    "pit_deduct_soc": true,
+    "soc_rate": 0.0,
+    "soc_fixed": 310.0,
+    "tax_free_months": 6
+  }
+}

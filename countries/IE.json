@@ -1,0 +1,74 @@
+{
+  "code": "IE",
+  "name": "Ireland",
+  "low_budget_country": false,
+  "spiritual_teacher": "Rare (Almost no local masters)",
+  "work_strategy": "Remote (Critical housing crisis makes living there uncomfortable)",
+  "it_market": "Excellent (European HQs of Apple, Meta, Google)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; thereafter 20–40% Income Tax + USC + PRSI; Ukrainian 5% Unified Tax not credited under DTT.",
+  "climate": "Rainy (Constant winds, dampness, very little sun)",
+  "nature": "Ocean and Cliffs (Cold Atlantic, almost no mountains)",
+  "english_level": "Native (English-speaking environment)",
+  "housing_rent": "Worst crisis (Catastrophic supply shortage, hundreds of people per viewing)",
+  "citizenship": "5 years (Relatively simple path, dual citizenship allowed)",
+  "mortgage_expats": "Difficult (Banks lend to expats, but physically no homes for sale)",
+  "rent_to_buy": "None",
+  "weather": {
+    "reference_city": "Dublin",
+    "coordinates": {
+      "lat": 53.3498,
+      "lon": -6.2603
+    },
+    "annual_mean_c": 10.1,
+    "winter_djf_c": {
+      "mean": 6.0,
+      "min": -1.9,
+      "max": 13.5
+    },
+    "spring_mam_c": {
+      "mean": 8.6,
+      "min": 0.3,
+      "max": 17.9
+    },
+    "summer_jja_c": {
+      "mean": 14.6,
+      "min": 7.5,
+      "max": 23.3
+    },
+    "autumn_son_c": {
+      "mean": 11.0,
+      "min": 2.8,
+      "max": 18.5
+    },
+    "humidity_annual_pct": 87.6,
+    "heating_months_below_15c": 10,
+    "monthly_mean_c": {
+      "jan": 5.8,
+      "feb": 5.6,
+      "mar": 6.4,
+      "apr": 8.4,
+      "may": 10.9,
+      "jun": 13.6,
+      "jul": 15.1,
+      "aug": 15.0,
+      "sep": 13.5,
+      "oct": 11.2,
+      "nov": 8.3,
+      "dec": 6.5
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=53.3498&longitude=-6.2603&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=53.3498&longitude=-6.2603&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard"
+}

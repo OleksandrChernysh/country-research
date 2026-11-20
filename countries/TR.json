@@ -1,0 +1,91 @@
+{
+  "code": "TR",
+  "name": "Turkey",
+  "low_budget_country": false,
+  "spiritual_teacher": "Jalal al-Din Rumi / Sufism (Konya — center of the Mevlevi / dervish order, ancient Sufi wisdom)",
+  "work_strategy": "Remote (Tourist/humanitarian residence permit; working on the local market prohibited without a special permit)",
+  "it_market": "Local (Large domestic market, but Turkish is required)",
+  "ua_fop_and_local_taxes": "First 183 days €0; thereafter 15–40% progressive PIT; Ukrainian 5% Single Tax is not credited under DTT.",
+  "climate": "Very warm (Mediterranean, subtropical, Antalya/Alanya — warm winter)",
+  "nature": "Top Sea + Mountains (Mediterranean, Aegean, Black Sea; Taurus Mountains, Cappadocia)",
+  "english_level": "Difficult (Turkish only outside resort areas)",
+  "housing_rent": "Cheap / Moderate (~€350–500 Antalya/Alanya)",
+  "citizenship": "5 years (or investment from k)",
+  "mortgage_expats": "Available, but high interest rates",
+  "rent_to_buy": "Rare",
+  "protection_and_aid_2026": {
+    "entry_documents": "International passport or ID card. Visa-free 90 days out of 180.",
+    "protection_status": "NO EU-directive temporary protection. Available: tourist residence permit (up to 2 years), humanitarian residence permit (1 year), or International Protection (refugee status).",
+    "military_liable_rule_2026": "**Non-EU country. EU directives restricting protection for conscription-liable persons DO NOT APPLY HERE.**",
+    "social_benefits": "No state payments (one-off food packages from municipalities or ASAM projects may be available).",
+    "housing_aid": "No state housing; self-paid rent or volunteer support only.",
+    "healthcare": "Paid mandatory insurance (SGK or private). Free healthcare only when applying for refugee status.",
+    "transport": "No benefits for Ukrainians (Istanbulkart in Istanbul is paid).",
+    "work_rights": "Tourist and humanitarian residence permits do NOT grant work rights! Work is possible only with a work visa or 6 months after applying for refugee status.",
+    "housing_portals": {
+      "items": [
+        "[Sahibinden.com](https://www.sahibinden.com/) — absolute leader and monopoly of the rental market in Turkey (Antalya, Alanya, Istanbul).",
+        "[Hepsiemlak.com](https://www.hepsiemlak.com/) — major specialized real estate portal.",
+        "[Zingat.com](https://www.zingat.com/) — portal with price analytics and neighborhood ratings."
+      ]
+    }
+  },
+  "weather": {
+    "reference_city": "Antalya",
+    "coordinates": {
+      "lat": 36.8969,
+      "lon": 30.7133
+    },
+    "annual_mean_c": 17.5,
+    "winter_djf_c": {
+      "mean": 8.1,
+      "min": -5.4,
+      "max": 21.4
+    },
+    "spring_mam_c": {
+      "mean": 15.1,
+      "min": 2.0,
+      "max": 30.5
+    },
+    "summer_jja_c": {
+      "mean": 27.3,
+      "min": 15.4,
+      "max": 42.0
+    },
+    "autumn_son_c": {
+      "mean": 19.3,
+      "min": 4.6,
+      "max": 35.0
+    },
+    "humidity_annual_pct": 61.9,
+    "heating_months_below_15c": 6,
+    "monthly_mean_c": {
+      "jan": 7.1,
+      "feb": 8.2,
+      "mar": 11.1,
+      "apr": 14.7,
+      "may": 19.4,
+      "jun": 24.4,
+      "jul": 28.6,
+      "aug": 29.0,
+      "sep": 25.0,
+      "oct": 19.4,
+      "nov": 13.5,
+      "dec": 9.0
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=36.8969&longitude=30.7133&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=36.8969&longitude=30.7133&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard"
+}

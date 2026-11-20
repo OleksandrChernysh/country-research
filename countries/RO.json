@@ -1,0 +1,149 @@
+{
+  "code": "RO",
+  "name": "Romania",
+  "low_budget_country": true,
+  "spiritual_teacher": "Hesychasm / Carpathian sketes (Sacred silence tradition, ancient Transylvanian monasteries, yoga communities)",
+  "work_strategy": "Hybrid / Remote (1% SRL micro-enterprise tax or 10% PFA, full DTT protection, TP status)",
+  "it_market": "Good (One of Eastern Europe's strongest IT hubs: Bucharest, Cluj-Napoca, Iași, Timișoara)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; then Z015 + Formular 212: CASS 10% + PIT 10% = 114–143 € (≤750 €), but at ≥12 MW, CAS 25% (194.71 €) is added → 327–365 €/mo.",
+  "price_sources": {
+    "summary": "[Numbeo Romania](https://www.numbeo.com/cost-of-living/country_result.jsp?country=Romania); heating/utilities — `CLIMATE_AND_HEATING_COSTS.md`; food — Lidl / Kaufland / Mega Image; rent parser — `~/Public/travel-helper/src/domains/housing/housing-normalizer.ts`.",
+    "numbeo_mandatory_fields": [
+      "Estimated monthly costs for a single person without rent (food, transport, basic household)",
+      "Basic utilities (Electricity, Heating, Cooling, Water, Garbage) + Internet (Broadband)",
+      "Apartment (1 bedroom) Outside of Centre"
+    ]
+  },
+  "climate": [
+    "Continental (Brașov) / temperate maritime (Constanța).",
+    "*Constanța (sea):* annual mean +12.5°C; winter +4...-2°C (windy); summer +27...+18°C. Heating season 4.5 mos (~80–120 €/mo).",
+    "*Brașov (Carpathians):* annual mean +8.5°C; winter +1...-8°C (deep snow, frost); summer +24...+12°C. Heating season 6 mos (gas/wood ~120–180 €/mo).",
+    "*Conclusion:* Constanța saves up to 300–400 € per heating season compared to mountainous Brașov."
+  ],
+  "nature": "Top Mountains and Forests (Carpathians, old-growth Transylvanian conifer forests, gorges, Black Sea in Constanța)",
+  "english_level": "Easy (Very high English proficiency among youth and in services, top-15 globally per EF EPI)",
+  "housing_rent": "Very cheap. **Constanța (sea coast):** great option with low off-season rent (from ~250–320 € for a 1-bed); in Brașov (Carpathians) and Iași ~280–350 €; developed rental market without strict screening.",
+  "citizenship": "8 years (Standard naturalization with language and constitution exam)",
+  "mortgage_expats": "Moderate (Available for tax residents via the Noua Casă program and commercial banks)",
+  "rent_to_buy": "Rare (Închiriere cu opțiune de cumpărare occasionally found in new residential complexes)",
+  "protection_and_aid_2026": {
+    "entry_documents": "Any document proving Ukrainian citizenship (birth certificate for children). Biometric passport required for air travel.",
+    "protection_status": "Temporary protection (Permis de ședere) until March 4, 2027. A personal numeric code (CNP) is assigned.",
+    "military_liable_rule_2026": "**From 31.07.2026, EU countries do not grant protection to conscription-liable persons without proof of legal exit and deferral.**",
+    "social_benefits": "No direct state cash benefits. International aid available for vulnerable groups: UNHCR (568 RON/mo per person, 3 months) and Red Cross (110 €/mo, 3 months). Child state allowance (alocație) — 277 to 683 RON.",
+    "housing_aid": "6 state temporary accommodation centers (Bucharest, Suceava, Maramureș, etc.). Rentals via unacoperis.ro or the 50/20 program (payments directly to Ukrainians).",
+    "healthcare": "Free emergency medical care and treatment of acute conditions. Full free care for the first 90 days on biometric entry. Free prenatal care and pediatrics.",
+    "transport": "Public transport is paid for everyone.",
+    "work_rights": "Automatic right to work. Can work under a qualification declaration without diplomas (except medicine, architecture, law).",
+    "housing_portals": {
+      "items": [
+        "[Imobiliare.ro](https://www.imobiliare.ro/inchirieri-apartamente) — largest and most popular real estate portal with city filters (Constanța, Brașov, Bucharest).",
+        "[Storia.ro](https://www.storia.ro/) — modern aggregator from owners and agencies (powered by OLX).",
+        "[OLX.ro](https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/) — direct listings from owners with no agency fee.",
+        "[Publi24.ro](https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/) — popular classifieds for finding cheap rentals and rooms.",
+        "[Rentola.ro](https://rentola.ro/en) — international search engine for verified housing.",
+        "[Flatio.com](https://www.flatio.com/i/apartments-for-rent-romania) — monthly furnished rentals with utilities included and no deposit.",
+        "[Unacoperis.ro](https://unacoperis.ro/uk) — dedicated volunteer housing search platform for Ukrainians."
+      ]
+    }
+  },
+  "ua_fop_tax_budget_2026": {
+    "notes": [
+      "**Strict conditions:** income of `600 / 750 / 800 / 1 000 €/mo` net after UA FOP Group 3 (5% single tax + 1% military levy + SSC); without opening a local PFA/SRL; horizon >1 year factoring in deferral."
+    ],
+    "first_183_days": "TP or 90/180 visa-free — **0 €** local taxes.",
+    "legality_over_183d_with_deferral": "Covered by **EU Council Decision 2026/1912** (TP until 04.03.2027); conscription-age men need proof of legal exit and deferral/exemption. Without TP, Digital Nomad visa requires ~3,700+ €/mo (unavailable).",
+    "forms_after_183d": "*Legea 227/2015, Art. 7 pct. 28* — **Z015** questionnaire (within 30 days) + **Declarația Unică (Formular 212)** by May 25 as *activități independente* from abroad.",
+    "dtt_ua_ro": "Ukrainian 5% single tax is **not credited** by ANAF against local 10% PIT.",
+    "anaf_thresholds_2026": [
+      "For DU 2026, base is MW as of 01.01.2026 = **4,050 RON** (BNR rate ~`5.20 RON/EUR`; as of 20.11.2026 — `5.3482`).",
+      "**6 MW** (`24,300 RON/yr` ≈ `389 €/mo`): minimum base for **10% CASS**.",
+      "**12 MW** (`48,600 RON/yr` ≈ **`779 €/mo`** at 5.20, or **`757 €/mo`** at 5.35): mandatory **25% CAS** threshold (`12,150 RON/yr` ≈ **`194.71 €/mo`**)."
+    ],
+    "pit_10_pct": "on the base `(Income − CASS − CAS)`.",
+    "budget_baseline_590": [
+      "`600 €/mo`: CASS 60 € + CAS 0 € + PIT 54 € = **114 € (19.0%)** → net 486 € → **balance `-104 €/mo`**.",
+      "`750 €/mo`: CASS 75 € + CAS 0 € + PIT 67.50 € = **142.50 € (19.0%)** → net 607.50 € → **balance `+17.50 €/mo`**.",
+      "`800 €/mo` (**≥ 12 MW!**): CASS 80 € + CAS **194.71 €** + PIT 52.53 € = **327.24 € (40.9%)** → net **472.76 €** (**134.74 € less than at 750 €!**) → **balance `-117.24 €/mo`**.",
+      "`1 000 €/mo`: CASS 100 € + CAS **194.71 €** + PIT 70.53 € = **365.24 € (36.5%)** → net 634.76 € → **balance `+44.76 €/mo`**."
+    ],
+    "verdict": "Only viable as a **6-month transitional option** (or strictly at income ≤750 €). At 800–1,000 €, the 12 MW threshold makes official relocation with UA FOP economically unviable."
+  },
+  "weather": {
+    "reference_city": "Brasov",
+    "coordinates": {
+      "lat": 45.6427,
+      "lon": 25.5887
+    },
+    "annual_mean_c": 6.3,
+    "winter_djf_c": {
+      "mean": -4.5,
+      "min": -25.9,
+      "max": 12.6
+    },
+    "spring_mam_c": {
+      "mean": 5.7,
+      "min": -10.9,
+      "max": 22.2
+    },
+    "summer_jja_c": {
+      "mean": 16.6,
+      "min": 2.8,
+      "max": 32.7
+    },
+    "autumn_son_c": {
+      "mean": 7.0,
+      "min": -9.1,
+      "max": 25.7
+    },
+    "humidity_annual_pct": 80.2,
+    "heating_months_below_15c": 9,
+    "monthly_mean_c": {
+      "jan": -5.6,
+      "feb": -4.2,
+      "mar": 0.1,
+      "apr": 5.7,
+      "may": 11.3,
+      "jun": 15.2,
+      "jul": 17.3,
+      "aug": 17.5,
+      "sep": 12.4,
+      "oct": 6.8,
+      "nov": 1.8,
+      "dec": -3.8
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=45.6427&longitude=25.5887&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=45.6427&longitude=25.5887&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "fallback_budget": {
+    "city": "Brașov / Craiova",
+    "rent_eur": "~320",
+    "living_eur": "~530",
+    "min_total_eur": "~850",
+    "medicine_logistics": "Ideal (shared border, Nova Poshta)"
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "fast",
+  "tax_calc_model": {
+    "label": "Romania (TP, full ANAF)",
+    "rent_eur": 300,
+    "living_other_eur": 379,
+    "pit_rate": 0.1,
+    "pit_threshold": 0.0,
+    "pit_mult": 1.0,
+    "pit_deduct_soc": true,
+    "soc_rate": 0.0,
+    "soc_fixed": 290.0,
+    "tax_free_months": 6
+  }
+}

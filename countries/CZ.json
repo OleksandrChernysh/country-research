@@ -1,0 +1,93 @@
+{
+  "code": "CZ",
+  "name": "Czechia",
+  "low_budget_country": false,
+  "spiritual_teacher": "Satsangs / Buddhist centers (Prague is a major European retreat hub)",
+  "work_strategy": "Hybrid / Remote (Flat-rate tax for živnostník from ~300 €/mo including social contributions)",
+  "it_market": "Excellent (One of Central Europe's leading hubs: Prague, Brno)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; thereafter 15% PIT + mandatory health/social contributions; Ukrainian 5% single tax is not credited under DTT.",
+  "climate": "Temperate (Cold winter, mild summer, few sunny days)",
+  "nature": "Mountains, Forests, Rock towns (Krkonoše, Bohemian Switzerland, Šumava; no sea)",
+  "english_level": "Good (Fluent English in IT and Prague; Czech is a Slavic language, quick to learn)",
+  "housing_rent": "Severe crisis (Prague 600–900 € for a 1-bedroom; 400–550 € in the regions)",
+  "citizenship": "10 years (5 years PR + 5 years to passport)",
+  "mortgage_expats": "Moderate (Available with TRP/Temporary Protection at 5–6%)",
+  "rent_to_buy": "Rare",
+  "protection_and_aid_2026": {
+    "entry_documents": "Biometric or regular passport, Ukrainian internal passport. Exit stamp after 24.02.2022 is mandatory.",
+    "protection_status": "Temporary Protection (visa D/DO/667).",
+    "military_liable_rule_2026": "**From 05.08.2026, Czechia does NOT grant protection to military-liable men aged 18–60 without proof of military deregistration!**",
+    "social_benefits": "First 150 days humanitarian aid ~204 € (4860 CZK) per person if no income; rent subsidy ~121 € (3000 CZK).",
+    "housing_aid": "Free state accommodation only in Ostrava and for up to 90 days. Full self-paid rent thereafter.",
+    "healthcare": "First 150 days comprehensive VZP insurance is paid by the state; thereafter by the employer or self-paid.",
+    "transport": "Concessions depend on the city (pass discounts in Prague); free train only for leaving the country if status is denied.",
+    "work_rights": "Automatic right to work with Temporary Protection visa; minimum wage ~112.5 CZK/hr, high demand for specialists.",
+    "housing_portals": {
+      "items": [
+        "[Sreality.cz](https://www.sreality.cz/en) — Czechia's main and largest real estate portal (Prague, Brno, Ostrava).",
+        "[Bezrealitky.cz](https://www.bezrealitky.cz/) — rental platform **exclusively direct from owners with zero realtor commission**.",
+        "[UlovDomov.cz](https://www.ulovdomov.cz/) — listing aggregator with tenant and landlord reliability checks.",
+        "[Idnes.cz/reality](https://reality.idnes.cz/) — large catalog by media group iDNES.",
+        "[Flatio.cz](https://www.flatio.cz/) — monthly furnished rentals with no deposit."
+      ]
+    }
+  },
+  "weather": {
+    "reference_city": "Brno",
+    "coordinates": {
+      "lat": 49.1951,
+      "lon": 16.6068
+    },
+    "annual_mean_c": 9.6,
+    "winter_djf_c": {
+      "mean": -1.4,
+      "min": -22.9,
+      "max": 14.6
+    },
+    "spring_mam_c": {
+      "mean": 9.5,
+      "min": -7.6,
+      "max": 27.2
+    },
+    "summer_jja_c": {
+      "mean": 20.5,
+      "min": 5.9,
+      "max": 37.2
+    },
+    "autumn_son_c": {
+      "mean": 9.7,
+      "min": -4.5,
+      "max": 26.6
+    },
+    "humidity_annual_pct": 77.1,
+    "heating_months_below_15c": 8,
+    "monthly_mean_c": {
+      "jan": -2.6,
+      "feb": -0.6,
+      "mar": 3.9,
+      "apr": 9.8,
+      "may": 14.7,
+      "jun": 19.2,
+      "jul": 21.4,
+      "aug": 20.9,
+      "sep": 15.4,
+      "oct": 9.3,
+      "nov": 4.2,
+      "dec": -1.1
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=49.1951&longitude=16.6068&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=49.1951&longitude=16.6068&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": true,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "carrier"
+}

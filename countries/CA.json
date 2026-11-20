@@ -1,0 +1,74 @@
+{
+  "code": "CA",
+  "name": "Canada",
+  "low_budget_country": false,
+  "spiritual_teacher": "Eckhart Tolle (Resides in Vancouver)",
+  "work_strategy": "Remote (Find work there, but live in a cheaper country)",
+  "it_market": "Excellent (Strong integration with US market, high salaries)",
+  "ua_fop_and_local_taxes": "First 183 days €0 (if non-resident); thereafter federal + provincial PIT + CPP; Ukrainian 5% Single Tax is not credited.",
+  "climate": "Cold (Harsh winters most of the year, except rainy Vancouver)",
+  "nature": "Ocean and Mountains (Rocky Mountains, stunning nature in the west)",
+  "english_level": "Native (English-speaking environment)",
+  "housing_rent": "Extreme (Catastrophic housing prices, massive bubble)",
+  "citizenship": "3 years (Fastest path in the world, 3 out of last 5 years of residency)",
+  "mortgage_expats": "Difficult (Foreign Buyer Ban, foreign buyer taxes, large down payment)",
+  "rent_to_buy": "Rare (Often unfavorable terms/gray schemes for people with poor credit)",
+  "weather": {
+    "reference_city": "Toronto",
+    "coordinates": {
+      "lat": 43.6532,
+      "lon": -79.3832
+    },
+    "annual_mean_c": 9.1,
+    "winter_djf_c": {
+      "mean": -1.7,
+      "min": -18.6,
+      "max": 11.8
+    },
+    "spring_mam_c": {
+      "mean": 5.8,
+      "min": -10.6,
+      "max": 22.4
+    },
+    "summer_jja_c": {
+      "mean": 20.3,
+      "min": 7.9,
+      "max": 31.5
+    },
+    "autumn_son_c": {
+      "mean": 11.7,
+      "min": -1.1,
+      "max": 24.8
+    },
+    "humidity_annual_pct": 78.7,
+    "heating_months_below_15c": 8,
+    "monthly_mean_c": {
+      "jan": -2.7,
+      "feb": -2.8,
+      "mar": 0.7,
+      "apr": 5.5,
+      "may": 11.3,
+      "jun": 17.6,
+      "jul": 21.7,
+      "aug": 21.6,
+      "sep": 18.2,
+      "oct": 11.5,
+      "nov": 5.4,
+      "dec": 0.5
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=43.6532&longitude=-79.3832&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=43.6532&longitude=-79.3832&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "visa required",
+    "visa_free_days": 0,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard"
+}

@@ -1,0 +1,106 @@
+{
+  "code": "HR",
+  "name": "Croatia",
+  "low_budget_country": false,
+  "spiritual_teacher": "Retreats / Islands (Quiet Dalmatian islands, yoga camps on Hvar and Korčula)",
+  "work_strategy": "Remote (Digital Nomad Visa grants 0% local tax on foreign income, but requires proof of ~2 540 €/mo income; alternatively — Temporary Protection for Ukrainians)",
+  "it_market": "Moderate (Developed hub in Zagreb — Rimac, Infobip; remote-only on the coast)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; thereafter 20–30% PIT + social contributions; Ukrainian 5% single tax is not credited under DTT.",
+  "climate": [
+    "*Coast (Split, Zadar, Rijeka):* annual mean **+16.5°C**.",
+    "*Winter:* day +11...+14°C, night +5...+7°C (no snow, but cold stormy \"Bura\" wind occurs).",
+    "*Spring:* day +15...+22°C, night +9...+14°C.",
+    "*Summer:* day +29...+33°C, night +20...+23°C (sea +24...+26°C, sunny).",
+    "*Autumn:* day +19...+25°C, night +12...+16°C.",
+    "*Heating season:* 2–3 months (AC/convector, ~50–80 €/mo).",
+    "*Continental part (Zagreb):* annual mean **+11.5°C**, snowy winter (+3°C / -2°C), heating season 5–6 months (~120–160 €/mo)."
+  ],
+  "nature": "🟢 **Top in Europe.** Crystal-clear Adriatic Sea, over 1000 islands, Plitvice Lakes, Velebit cliffs.",
+  "english_level": "🟢 **Easy.** Croatia ranks among the highest in the world for English proficiency (top-10 in Europe). Croatian is a Slavic language and easy to understand.",
+  "housing_rent": [
+    "🟠 **Expensive with seasonal risk.**",
+    "*Zagreb:* 450–650 € for a 1-bedroom.",
+    "*Coast (Zadar/Rijeka/Split) off-season (October–May):* ~350–500 €/mo.",
+    "⚠️ **Main coastal risk:** Most landlords rent only until June 1 (\"do sezone\"), after which they evict tenants for tourists or raise prices 3–4x. Finding a year-round contract requires great care.",
+    "*Utilities:* ~100–140 €/mo.",
+    "*Total minimum cost of living:* **~800–950 €/mo** (much more expensive than Romania/Bulgaria/Georgia)."
+  ],
+  "citizenship": "8 years of permanent residence.",
+  "mortgage_expats": "Difficult for non-residents without PR.",
+  "rent_to_buy": "Rare.",
+  "protection_and_aid_2026": {
+    "entry_documents": "Biometric or internal passport. Police registration within 48 hours.",
+    "protection_status": "Temporary Protection (Privremena zaštita) valid until March 4, 2027. A protected foreigner card and OIB (tax number) are issued.",
+    "military_liable_rule_2026": "Croatia is an EU member, so the 31.07.2026 rule requiring proof of legal exit/deferment applies. Having an official deferment fully satisfies these requirements.",
+    "social_benefits": "One-time financial aid (Jednokratna novčana pomoć) from social welfare centers (Centar za socijalnu skrb) — up to 330 € per person or 460 € per family (not granted to everyone).",
+    "healthcare": "Temporary Protection grants entitlement to mandatory health insurance (HZZO) — free emergency and basic care at public facilities.",
+    "work_rights": "Automatic right to work with the protection card.",
+    "housing_portals": {
+      "items": [
+        "[Njuškalo.hr](https://www.njuskalo.hr/iznajmljivanje-stanova) — absolute #1 monopoly in Croatia (80%+ of all listings).",
+        "[Index Oglasi](https://www.index.hr/oglasi/najam-stanova/gid/3207) — second most popular portal, many direct-from-owner listings with zero realtor commission.",
+        "[Oglasnik.hr](https://www.oglasnik.hr/najam-stanova) — classic rental classifieds board.",
+        "[Crozilla.com](https://www.crozilla.com/en/rent) — convenient portal with an English interface for foreigners.",
+        "[Flatio.com](https://www.flatio.com/housing/croatia) — monthly rentals for digital nomads with no deposit for 1–6 months."
+      ]
+    }
+  },
+  "weather": {
+    "reference_city": "Split",
+    "coordinates": {
+      "lat": 43.5081,
+      "lon": 16.4402
+    },
+    "annual_mean_c": 15.5,
+    "winter_djf_c": {
+      "mean": 7.6,
+      "min": -6.3,
+      "max": 15.8
+    },
+    "spring_mam_c": {
+      "mean": 13.6,
+      "min": 1.1,
+      "max": 24.7
+    },
+    "summer_jja_c": {
+      "mean": 24.1,
+      "min": 12.5,
+      "max": 34.9
+    },
+    "autumn_son_c": {
+      "mean": 16.6,
+      "min": 5.6,
+      "max": 27.0
+    },
+    "humidity_annual_pct": 70.7,
+    "heating_months_below_15c": 6,
+    "monthly_mean_c": {
+      "jan": 7.0,
+      "feb": 7.4,
+      "mar": 9.9,
+      "apr": 13.3,
+      "may": 17.5,
+      "jun": 22.0,
+      "jul": 25.0,
+      "aug": 25.2,
+      "sep": 20.6,
+      "oct": 16.5,
+      "nov": 12.6,
+      "dec": 8.4
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=43.5081&longitude=16.4402&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=43.5081&longitude=16.4402&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "carrier"
+}

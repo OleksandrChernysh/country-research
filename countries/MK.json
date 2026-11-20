@@ -1,0 +1,81 @@
+{
+  "code": "MK",
+  "name": "North Macedonia",
+  "low_budget_country": false,
+  "spiritual_teacher": "Ohrid shrines (Saint Naum, Byzantine Christian mysticism, energetic lakes)",
+  "work_strategy": "Remote (10% flat tax, cheap living)",
+  "it_market": "Weak (Small market in Skopje)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; thereafter 10% flat PIT (Unified Tax not credited under DTT), but no TP/Nomad visa for long-term legal stay.",
+  "climate": "Temperate (Warm southern continental)",
+  "nature": "Mountains and Lake Ohrid (Huge crystal-clear Lake Ohrid substitutes for sea; surrounding mountains and national parks)",
+  "english_level": "Difficult (Only among youth in the capital)",
+  "housing_rent": "Cheapest (~220–280 € Ohrid/Skopje)",
+  "citizenship": "8 years (Difficult naturalization)",
+  "mortgage_expats": "Unavailable (Not granted to foreigners)",
+  "rent_to_buy": "None",
+  "weather": {
+    "reference_city": "Skopje",
+    "coordinates": {
+      "lat": 41.9981,
+      "lon": 21.4254
+    },
+    "annual_mean_c": 10.8,
+    "winter_djf_c": {
+      "mean": -0.2,
+      "min": -22.6,
+      "max": 17.6
+    },
+    "spring_mam_c": {
+      "mean": 9.6,
+      "min": -8.5,
+      "max": 26.5
+    },
+    "summer_jja_c": {
+      "mean": 21.7,
+      "min": 5.9,
+      "max": 38.9
+    },
+    "autumn_son_c": {
+      "mean": 11.7,
+      "min": -5.8,
+      "max": 30.4
+    },
+    "humidity_annual_pct": 72.1,
+    "heating_months_below_15c": 8,
+    "monthly_mean_c": {
+      "jan": -1.3,
+      "feb": 0.5,
+      "mar": 4.7,
+      "apr": 9.5,
+      "may": 14.6,
+      "jun": 19.2,
+      "jul": 22.7,
+      "aug": 23.1,
+      "sep": 17.5,
+      "oct": 11.8,
+      "nov": 6.0,
+      "dec": 0.2
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=41.9981&longitude=21.4254&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=41.9981&longitude=21.4254&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "fallback_budget": {
+    "city": "Ohrid",
+    "rent_eur": "~280",
+    "living_eur": "~480",
+    "min_total_eur": "~760",
+    "medicine_logistics": "Difficult (far, no Nova Poshta)"
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard"
+}

@@ -1,0 +1,84 @@
+{
+  "code": "NZ",
+  "name": "New Zealand",
+  "low_budget_country": false,
+  "spiritual_teacher": "Rare (Very far from global spiritual centers)",
+  "work_strategy": "Remote (Due to cost of living and distance from Europe)",
+  "it_market": "Medium (Local market, smaller than Australia's)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; then 10.5–39% PIT + ACC; Ukrainian 5% single tax is not credited under DTT.",
+  "climate": "Temperate (Oceanic, mild, but often windy and changeable)",
+  "nature": "Top Nature (Ocean on all sides, Southern Alps, incredible landscapes)",
+  "english_level": "Native (English-speaking environment)",
+  "housing_rent": "Extreme (One of the worst housing crises and highest price-to-income ratios)",
+  "citizenship": "5 years (Relatively straightforward process)",
+  "mortgage_expats": "Difficult (Ban on non-residents buying existing homes)",
+  "rent_to_buy": "Not practiced",
+  "protection_and_aid_2026": {
+    "entry_documents": "International passport. Special Ukraine Visa requires a sponsor or relative in New Zealand.",
+    "protection_status": "Special Ukraine Visa for 2 years with a simplified pathway to permanent residency (Ukraine Residence Visa).",
+    "military_liable_rule_2026": "**Not subject to EU directives.**",
+    "social_benefits": "No state benefits — all financial support rests on the sponsor or own funds.",
+    "housing_aid": "No state-provided housing; private rent or sponsor's accommodation (500–600 NZD/week).",
+    "healthcare": "Free primary health advice via Healthline. Access to public healthcare on par with citizens; ACC accident insurance.",
+    "transport": "No concessions; a personal car is needed due to weak public transit.",
+    "work_rights": "Full work rights on the special visa; average wage from 21.20 NZD/hr."
+  },
+  "weather": {
+    "reference_city": "Auckland",
+    "coordinates": {
+      "lat": -36.8485,
+      "lon": 174.7633
+    },
+    "annual_mean_c": 15.7,
+    "winter_djf_c": {
+      "mean": 19.5,
+      "min": 10.3,
+      "max": 27.5
+    },
+    "spring_mam_c": {
+      "mean": 16.9,
+      "min": 7.8,
+      "max": 24.3
+    },
+    "summer_jja_c": {
+      "mean": 11.9,
+      "min": 3.6,
+      "max": 18.5
+    },
+    "autumn_son_c": {
+      "mean": 14.4,
+      "min": 6.1,
+      "max": 22.0
+    },
+    "humidity_annual_pct": 78.9,
+    "heating_months_below_15c": 6,
+    "monthly_mean_c": {
+      "jan": 19.8,
+      "feb": 20.4,
+      "mar": 19.1,
+      "apr": 17.0,
+      "may": 14.7,
+      "jun": 12.6,
+      "jul": 11.4,
+      "aug": 11.8,
+      "sep": 12.9,
+      "oct": 14.2,
+      "nov": 16.0,
+      "dec": 18.2
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=-36.8485&longitude=174.7633&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=-36.8485&longitude=174.7633&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "visa required",
+    "visa_free_days": 0,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard"
+}

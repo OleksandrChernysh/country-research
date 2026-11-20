@@ -1,0 +1,92 @@
+{
+  "code": "GR",
+  "name": "Greece",
+  "low_budget_country": false,
+  "spiritual_teacher": "Mount Athos (World center of Orthodox hesychasm and monastic asceticism)",
+  "work_strategy": "Remote (Digital Nomad Visa: 50% tax discount for the first 7 years)",
+  "it_market": "Moderate (Athens, Thessaloniki)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; thereafter progressive PIT + mandatory EFKA contributions; Ukrainian 5% single tax is not credited under DTT.",
+  "climate": "Very warm (Mediterranean, mild snowless winter on the coast, 300+ sunny days)",
+  "nature": "Top Sea and Islands (Aegean and Ionian seas, Mount Olympus, thousands of coves)",
+  "english_level": "Moderate (Fluent English in tourism and major cities)",
+  "housing_rent": "Moderate (~350–450 € in Thessaloniki or Athens suburbs)",
+  "citizenship": "7–10 years",
+  "mortgage_expats": "Difficult",
+  "rent_to_buy": "Rare",
+  "protection_and_aid_2026": {
+    "entry_documents": "Biometric passport (without documents — only via the Promachonas border crossing).",
+    "protection_status": "Temporary Protection until March 4, 2027. ΑΦΜ (tax ID) and ΑΜΚΑ (social security) numbers are issued simultaneously.",
+    "military_liable_rule_2026": "**From 31.07.2026, EU countries do not grant protection to military-liable persons without proof of legal exit and deferment.**",
+    "social_benefits": "Virtually no state cash benefits (only humanitarian parcels and aid for those registered in RICs/ESTIA).",
+    "housing_aid": "Short-term accommodation at the Sintiki center; long-term housing via the HELIOS/ESTIA program.",
+    "healthcare": "Free care in public hospitals with an AMKA number; emergency care is free.",
+    "transport": "Free rides on the Athens metro (Athena Card) and in Thessaloniki with AMKA.",
+    "work_rights": "Automatic right to work with Temporary Protection. Minimum wage ~910 €. Seasonal employment in tourism.",
+    "housing_portals": {
+      "items": [
+        "[Spitogatos.gr](https://www.spitogatos.gr/en) — #1 real estate portal in Greece with an English interface (Athens, Thessaloniki).",
+        "[Spiti24.gr](https://www.spiti24.gr/en) — part of the Spitogatos network, convenient coastal search.",
+        "[Xe.gr](https://www.xe.gr/property/en/) (Chrysi Efkairia) — Greece's largest classifieds board.",
+        "[Tospitimou.gr](https://www.tospitimou.gr/en) — popular housing search engine from owners and agencies."
+      ]
+    }
+  },
+  "weather": {
+    "reference_city": "Thessaloniki",
+    "coordinates": {
+      "lat": 40.6401,
+      "lon": 22.9444
+    },
+    "annual_mean_c": 15.4,
+    "winter_djf_c": {
+      "mean": 5.5,
+      "min": -11.7,
+      "max": 19.4
+    },
+    "spring_mam_c": {
+      "mean": 13.6,
+      "min": -1.0,
+      "max": 30.7
+    },
+    "summer_jja_c": {
+      "mean": 26.0,
+      "min": 13.5,
+      "max": 41.8
+    },
+    "autumn_son_c": {
+      "mean": 16.2,
+      "min": 2.3,
+      "max": 31.0
+    },
+    "humidity_annual_pct": 68.8,
+    "heating_months_below_15c": 6,
+    "monthly_mean_c": {
+      "jan": 4.5,
+      "feb": 6.0,
+      "mar": 9.2,
+      "apr": 13.0,
+      "may": 18.7,
+      "jun": 23.9,
+      "jul": 27.0,
+      "aug": 26.9,
+      "sep": 21.8,
+      "oct": 16.0,
+      "nov": 10.9,
+      "dec": 5.9
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=40.6401&longitude=22.9444&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=40.6401&longitude=22.9444&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "carrier"
+}

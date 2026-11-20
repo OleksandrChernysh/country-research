@@ -1,0 +1,74 @@
+{
+  "code": "CH",
+  "name": "Switzerland",
+  "low_budget_country": false,
+  "spiritual_teacher": "Retreats (Francis Lucille occasionally holds events)",
+  "work_strategy": "Remote (B2B contracts, as work visas for non-EU specialists are nearly impossible)",
+  "it_market": "Good (Google HQ, highest salaries in Europe)",
+  "ua_fop_and_local_taxes": "Cantonal + federal PIT + AHV/IV (~25–35%+ total) upon acquiring tax residency; Ukrainian 5% Single Tax is not credited.",
+  "climate": "Alpine (Snowy winters, clean air, pleasant summers)",
+  "nature": "High Alps (Fantastic mountains and lakes, but landlocked)",
+  "english_level": "Difficult (English in IT, but bureaucracy/contracts require a local language: DE/FR/IT)",
+  "housing_rent": "Extreme (Most expensive rent in Europe, extremely hard to rent without local history)",
+  "citizenship": "10 years (Very difficult, integration exams at canton/municipality level)",
+  "mortgage_expats": "Extremely difficult (Requires at least 20% down payment on astronomical prices)",
+  "rent_to_buy": "None (Not practiced for residential real estate)",
+  "weather": {
+    "reference_city": "Zurich",
+    "coordinates": {
+      "lat": 47.3769,
+      "lon": 8.5417
+    },
+    "annual_mean_c": 9.1,
+    "winter_djf_c": {
+      "mean": -0.1,
+      "min": -16.4,
+      "max": 14.3
+    },
+    "spring_mam_c": {
+      "mean": 8.8,
+      "min": -9.2,
+      "max": 24.7
+    },
+    "summer_jja_c": {
+      "mean": 18.0,
+      "min": 5.3,
+      "max": 33.2
+    },
+    "autumn_son_c": {
+      "mean": 9.4,
+      "min": -5.7,
+      "max": 24.0
+    },
+    "humidity_annual_pct": 82.6,
+    "heating_months_below_15c": 9,
+    "monthly_mean_c": {
+      "jan": -0.7,
+      "feb": 0.1,
+      "mar": 4.3,
+      "apr": 8.9,
+      "may": 13.1,
+      "jun": 17.1,
+      "jul": 18.7,
+      "aug": 18.2,
+      "sep": 14.1,
+      "oct": 9.8,
+      "nov": 4.2,
+      "dec": 0.2
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=47.3769&longitude=8.5417&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=47.3769&longitude=8.5417&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard"
+}

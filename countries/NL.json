@@ -1,0 +1,74 @@
+{
+  "code": "NL",
+  "name": "Netherlands",
+  "low_budget_country": false,
+  "spiritual_teacher": "Satsangs (European teachers visit frequently)",
+  "work_strategy": "Hybrid / Remote (Easy to integrate thanks to 100% English proficiency)",
+  "it_market": "Excellent (Booking, Uber HQ, huge fintech sector)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; then ~36.97%+ PIT (Box 1) + mandatory health insurance; Ukrainian 5% single tax is not credited under DTT.",
+  "climate": "Rainy (Very windy, damp, and many gray days throughout the year)",
+  "nature": "Completely flat (No mountains at all, only the cold North Sea)",
+  "english_level": "Ideal (Around 95% of the population speaks English fluently; local language not required)",
+  "housing_rent": "Extreme (Critical housing shortage, constant overbidding at rental auctions)",
+  "citizenship": "5 years (Fast, but renunciation of first passport is mandatory)",
+  "mortgage_expats": "Very accessible (Up to 100% LTV; 30% tax ruling increases borrowing limit)",
+  "rent_to_buy": "Not practiced (Seller's market is too fast for such schemes)",
+  "weather": {
+    "reference_city": "Amsterdam",
+    "coordinates": {
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "annual_mean_c": 10.5,
+    "winter_djf_c": {
+      "mean": 3.9,
+      "min": -9.7,
+      "max": 13.8
+    },
+    "spring_mam_c": {
+      "mean": 9.1,
+      "min": -2.5,
+      "max": 23.0
+    },
+    "summer_jja_c": {
+      "mean": 17.2,
+      "min": 9.1,
+      "max": 31.2
+    },
+    "autumn_son_c": {
+      "mean": 11.5,
+      "min": 1.2,
+      "max": 22.9
+    },
+    "humidity_annual_pct": 84.7,
+    "heating_months_below_15c": 8,
+    "monthly_mean_c": {
+      "jan": 3.5,
+      "feb": 3.5,
+      "mar": 5.6,
+      "apr": 9.2,
+      "may": 12.7,
+      "jun": 15.8,
+      "jul": 17.9,
+      "aug": 18.0,
+      "sep": 15.3,
+      "oct": 11.6,
+      "nov": 7.7,
+      "dec": 4.6
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=52.3676&longitude=4.9041&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=52.3676&longitude=4.9041&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard"
+}

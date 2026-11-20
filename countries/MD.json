@@ -1,0 +1,127 @@
+{
+  "code": "MD",
+  "name": "Moldova",
+  "low_budget_country": false,
+  "spiritual_teacher": "None (Only traditional Orthodox monasteries)",
+  "work_strategy": "Remote (Moldova IT Park — preferential 7% single tax for IT residents)",
+  "it_market": "Small (Concentrated exclusively in Chisinau)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; thereafter CET18: 12% PIT (minus ~127 €/mo personal allowance) + CNAM 54 €/mo = 111–159 €/mo; Unified Tax not credited under DTT.",
+  "climate": "Temperate (Continental, hot summers, short winters)",
+  "nature": "Weak (Plains, Codri hills, rivers; no sea or mountains — minimal psychological recreation)",
+  "english_level": "Moderate (Youth speak English; Romanian and Russian widely spoken)",
+  "housing_rent": "Cheap (~300–350 € for 1-bedroom in Chisinau)",
+  "citizenship": "10 years",
+  "mortgage_expats": "Unavailable to non-residents",
+  "rent_to_buy": "Rare",
+  "protection_and_aid_2026": {
+    "entry_documents": "Single entry/exit with any internal document; multiple entries strictly with international passport.",
+    "protection_status": "Temporary protection (Protectie temporara) or humanitarian protection.",
+    "military_liable_rule_2026": "EU candidate country, non-EU. Direct EU directive restrictions not yet incorporated, though bilateral border-service cooperation applies.",
+    "social_benefits": "UNHCR aid — 2,200 MDL (~115 €) per person for 2 months. Childbirth grant — 20,000 MDL.",
+    "housing_aid": "Refugee Accommodation Centres (RACs) with free housing for up to 3–9 months. Subsidies for Moldovan host families.",
+    "healthcare": "Free emergency medical care. Voluntary insurance costs around 300 MDL per 3 months.",
+    "transport": "Free evacuation buses from border to Chisinau and Romanian border. City transport at standard fares.",
+    "work_rights": "Right to work via simplified procedure under fixed-term contract and protection card.",
+    "housing_portals": {
+      "items": [
+        "[999.md](https://999.md/ru/category/real-estate) — country's main portal for owner-direct rentals (Chisinau).",
+        "[Casahub.md](https://casahub.md/) — modern bank-backed aggregator of verified real estate.",
+        "[Makler.md](https://makler.md/ru/real-estate) — popular classifieds board."
+      ]
+    }
+  },
+  "ua_fop_tax_budget_2026": {
+    "notes": [
+      "**Strict conditions:** net income `600 / 750 / 800 / 1 000 €/mo` after UA FOP Group 3; no local SP/SRL registration; >1-year horizon with military deferral."
+    ],
+    "first_183_days": "TP or 90/180 visa-free — **0 €** local taxes.",
+    "legality_over_183d_with_deferral": "For TP application/renewal in 2026, Moldova requires military status/deferral documents (incl. **Reserve+**) and proof of legal border crossing — with legal deferral, TP is approved (limit: no absences >45 days). **Without TP:** Digital Nomad residence permit requires ~3× average salary (**~52,200 MDL ≈ 2,680 €/mo** — unaffordable).",
+    "forms_after_183d": "Annual individual tax return **CET18** (by April 30). Ukrainian 5% Unified Tax is not credited.",
+    "taxes_and_contrib_2026": "",
+    "pit": "**12%** flat; personal allowance **29,700 MDL/year** (≈ `127 €/mo` at ~19.5 MDL/EUR) applies if income <360,000 MDL/year (all 600–1,000 € scenarios qualify).",
+    "cnam_health_insurance": "Fixed annual policy **12,636 MDL/year ≈ 54 €/mo** (discounts often available if paid before March). CNAS social fund not mandatory for individuals filing CET18.",
+    "budget_baseline_430": [
+      "`600 €/mo`: PIT 56.77 € + CNAM 54 € = **110.77 €** → net 489.23 € → **balance `+59.23 €/mo`**.",
+      "`750 €/mo`: PIT 74.77 € + CNAM 54 € = **128.77 €** → net 621.23 € → **balance `+191.23 €/mo`**.",
+      "`800 €/mo`: PIT 80.77 € + CNAM 54 € = **134.77 €** → net 665.23 € → **balance `+235.23 €/mo`**.",
+      "`1 000 €/mo`: PIT 104.77 € + CNAM 54 € = **158.77 €** → net 841.23 € → **balance `+411.23 €/mo`**."
+    ],
+    "verdict": "**Most reliable #1 budget option for >1 year** subject to TP approval: the only country where even **600 €/mo** consistently yields a surplus without threshold jumps."
+  },
+  "weather": {
+    "reference_city": "Chisinau",
+    "coordinates": {
+      "lat": 47.0105,
+      "lon": 28.8638
+    },
+    "annual_mean_c": 10.3,
+    "winter_djf_c": {
+      "mean": -2.5,
+      "min": -28.2,
+      "max": 15.3
+    },
+    "spring_mam_c": {
+      "mean": 10.2,
+      "min": -7.7,
+      "max": 29.3
+    },
+    "summer_jja_c": {
+      "mean": 22.9,
+      "min": 7.6,
+      "max": 39.4
+    },
+    "autumn_son_c": {
+      "mean": 10.6,
+      "min": -7.6,
+      "max": 30.1
+    },
+    "humidity_annual_pct": 72.5,
+    "heating_months_below_15c": 7,
+    "monthly_mean_c": {
+      "jan": -3.9,
+      "feb": -1.7,
+      "mar": 3.7,
+      "apr": 10.0,
+      "may": 16.7,
+      "jun": 21.3,
+      "jul": 23.9,
+      "aug": 23.5,
+      "sep": 17.5,
+      "oct": 10.2,
+      "nov": 4.1,
+      "dec": -1.8
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=47.0105&longitude=28.8638&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=47.0105&longitude=28.8638&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "fallback_budget": {
+    "city": "Chisinau",
+    "rent_eur": "~350",
+    "living_eur": "~550",
+    "min_total_eur": "~900",
+    "medicine_logistics": "Ideal (shared border, Nova Poshta)"
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "fast",
+  "tax_calc_model": {
+    "label": "Moldova (TP, 12% PIT)",
+    "rent_eur": 320,
+    "living_other_eur": 325,
+    "pit_rate": 0.12,
+    "pit_threshold": 0.0,
+    "pit_mult": 1.0,
+    "soc_rate": 0.0,
+    "soc_fixed": 0.0,
+    "tax_free_months": 6
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "code": "VN",
+  "name": "Vietnam",
+  "low_budget_country": true,
+  "nature": "🟢 Top: Tropical jungles, mountains within the city, warm sea and beaches (Da Nang)",
+  "housing_rent": "~€200 (Da Nang)",
+  "fallback_budget": {
+    "city": "Da Nang",
+    "rent_eur": "~200",
+    "living_eur": "~400",
+    "min_total_eur": "~600",
+    "visa_effort": "90-day e-visa, visa runs",
+    "medicine_logistics": "Ruled out due to inability to safely ship prescription medication from Ukraine (local prescription required)"
+  },
+  "weather": {
+    "reference_city": "Da Nang",
+    "coordinates": {
+      "lat": 16.0544,
+      "lon": 108.2022
+    },
+    "annual_mean_c": 25.4,
+    "winter_djf_c": {
+      "mean": 21.5,
+      "min": 14.3,
+      "max": 31.1
+    },
+    "spring_mam_c": {
+      "mean": 25.8,
+      "min": 17.9,
+      "max": 36.5
+    },
+    "summer_jja_c": {
+      "mean": 28.4,
+      "min": 23.7,
+      "max": 37.0
+    },
+    "autumn_son_c": {
+      "mean": 25.7,
+      "min": 20.0,
+      "max": 32.9
+    },
+    "humidity_annual_pct": 83.5,
+    "heating_months_below_15c": 0,
+    "monthly_mean_c": {
+      "jan": 21.0,
+      "feb": 21.7,
+      "mar": 23.7,
+      "apr": 26.0,
+      "may": 27.8,
+      "jun": 28.5,
+      "jul": 28.4,
+      "aug": 28.2,
+      "sep": 27.3,
+      "oct": 25.7,
+      "nov": 24.2,
+      "dec": 21.9
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=16.0544&longitude=108.2022&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=16.0544&longitude=108.2022&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "e-visa",
+    "visa_free_days": 0,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "blocked"
+}

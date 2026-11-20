@@ -1,0 +1,73 @@
+{
+  "code": "TH",
+  "name": "Thailand",
+  "low_budget_country": true,
+  "nature": "🟡 Mountains, waterfalls, jungles in the north (Chiang Mai); the sea in the south is too expensive",
+  "housing_rent": "~€250 (Chiang Mai)",
+  "fallback_budget": {
+    "city": "Chiang Mai",
+    "rent_eur": "~250",
+    "living_eur": "~500",
+    "min_total_eur": "~750",
+    "visa_effort": "5-year DTV visa",
+    "medicine_logistics": "Local medication equivalent with a local prescription required"
+  },
+  "weather": {
+    "reference_city": "Chiang Mai",
+    "coordinates": {
+      "lat": 18.7883,
+      "lon": 98.9853
+    },
+    "annual_mean_c": 23.1,
+    "winter_djf_c": {
+      "mean": 20.0,
+      "min": 6.6,
+      "max": 32.8
+    },
+    "spring_mam_c": {
+      "mean": 25.8,
+      "min": 13.2,
+      "max": 39.2
+    },
+    "summer_jja_c": {
+      "mean": 24.4,
+      "min": 18.4,
+      "max": 34.9
+    },
+    "autumn_son_c": {
+      "mean": 22.4,
+      "min": 12.6,
+      "max": 31.5
+    },
+    "humidity_annual_pct": 74.3,
+    "heating_months_below_15c": 0,
+    "monthly_mean_c": {
+      "jan": 19.3,
+      "feb": 21.7,
+      "mar": 24.6,
+      "apr": 27.1,
+      "may": 25.8,
+      "jun": 25.0,
+      "jul": 24.3,
+      "aug": 23.8,
+      "sep": 23.6,
+      "oct": 22.6,
+      "nov": 20.8,
+      "dec": 18.9
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=18.7883&longitude=98.9853&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=18.7883&longitude=98.9853&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "60",
+    "visa_free_days": 60,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "blocked"
+}

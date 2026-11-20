@@ -1,0 +1,92 @@
+{
+  "code": "SK",
+  "name": "Slovakia",
+  "low_budget_country": false,
+  "spiritual_teacher": "Retreats / Christian mysticism (Traditional centers)",
+  "work_strategy": "Hybrid / Remote (Živnosť — 60% flat-rate expenses up to €20,000, 15% tax)",
+  "it_market": "Medium (Bratislava, Košice)",
+  "ua_fop_and_local_taxes": "First 183 days €0; thereafter 19–25% PIT + social/health contributions; Ukrainian 5% Single Tax is not credited under DTT.",
+  "climate": "Temperate (Continental, cold snowy winter)",
+  "nature": "Top Mountains (High and Low Tatras, karst caves, forests; no sea)",
+  "english_level": "Easy (Slovak is the most mutually intelligible EU language with Ukrainian; English in IT)",
+  "housing_rent": "Moderate (~€400–550 in Bratislava/Košice)",
+  "citizenship": "8–10 years",
+  "mortgage_expats": "Moderate",
+  "rent_to_buy": "Rare",
+  "protection_and_aid_2026": {
+    "entry_documents": "Any document proving Ukrainian citizenship. Children may enter without documents.",
+    "protection_status": "Temporary refuge (Odídenec) until March 2027. Registration via online appointment.",
+    "military_liable_rule_2026": "**From 31.07.2026, EU countries do not grant protection to conscription-liable persons without proof of legal exit and deferment.**",
+    "social_benefits": "Material need assistance if income is below the subsistence minimum (€68.80 to €130.90 per family).",
+    "housing_aid": "Free camp accommodation is limited to 60 days (120 days for vulnerable groups). Thereafter — self-paid rent.",
+    "healthcare": "Full healthcare after obtaining status; separate aid for oncology patients. Mandatory work health insurance applies from €750 income.",
+    "transport": "Free for the first 4 days (SlovakHelp) and first 60 days commuting to/from work.",
+    "work_rights": "Automatic right to employment; entrepreneurial activity is allowed only after obtaining status.",
+    "housing_portals": {
+      "items": [
+        "[Nehnutelnosti.sk](https://www.nehnutelnosti.sk/) — #1 real estate portal in Slovakia (Bratislava, Košice, Trnava).",
+        "[Topreality.sk](https://www.topreality.sk/) — one of the most popular housing search engines.",
+        "[Reality.sk](https://www.reality.sk/) — official portal of the Slovak Association of Real Estate Agencies (NARKS).",
+        "[Bazos.sk](https://reality.bazos.sk/) — classifieds board where owners rent apartments without intermediaries."
+      ]
+    }
+  },
+  "weather": {
+    "reference_city": "Bratislava",
+    "coordinates": {
+      "lat": 48.1486,
+      "lon": 17.1077
+    },
+    "annual_mean_c": 10.9,
+    "winter_djf_c": {
+      "mean": -0.1,
+      "min": -20.2,
+      "max": 16.2
+    },
+    "spring_mam_c": {
+      "mean": 10.7,
+      "min": -6.4,
+      "max": 28.2
+    },
+    "summer_jja_c": {
+      "mean": 21.8,
+      "min": 7.0,
+      "max": 38.6
+    },
+    "autumn_son_c": {
+      "mean": 10.8,
+      "min": -4.4,
+      "max": 28.0
+    },
+    "humidity_annual_pct": 74.7,
+    "heating_months_below_15c": 7,
+    "monthly_mean_c": {
+      "jan": -1.2,
+      "feb": 0.8,
+      "mar": 5.2,
+      "apr": 11.0,
+      "may": 16.0,
+      "jun": 20.5,
+      "jul": 22.7,
+      "aug": 22.1,
+      "sep": 16.6,
+      "oct": 10.7,
+      "nov": 5.2,
+      "dec": 0.1
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=48.1486&longitude=17.1077&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=48.1486&longitude=17.1077&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "carrier"
+}

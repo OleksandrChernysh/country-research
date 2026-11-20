@@ -1,0 +1,145 @@
+{
+  "code": "GE",
+  "name": "Georgia",
+  "low_budget_country": true,
+  "spiritual_teacher": "George Gurdjieff (Tbilisi — key city in shaping the 'Fourth Way', ancient mountain temples, mystical culture)",
+  "work_strategy": "Remote (Unique regime: 1% small business tax up to k, visa-free entry and legal stay for 365 days)",
+  "it_market": "Moderate (Relocated international IT companies, active freelancer community in Tbilisi and Batumi)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; after 183 days 20% PIT (Art. 104 Tax Code — working from Georgia via UA FOP counts as Georgian-source income, social 0%; single tax not credited).",
+  "climate": [
+    "Warm subtropical (Batumi) / continental (Tbilisi).",
+    "*Annual mean T°:* +15.0°C.",
+    "*Winter:* day +10...+13°C, night +4...+6°C (frost-free, rainy).",
+    "*Spring:* day +13...+20°C, night +7...+12°C.",
+    "*Summer:* day +25...+29°C, night +18...+21°C (sea +25°C).",
+    "*Autumn:* day +18...+25°C, night +11...+16°C (velvet season until November).",
+    "*Heating season:* 3–3.5 months. Cost with gas heating (\"Karma\") is only ~35–55 €/mo (significant utility savings)."
+  ],
+  "nature": "Top Sea + Caucasus (Black Sea right in Batumi, Europe's highest mountains — Kazbek, Svaneti, green subtropics)",
+  "english_level": "Compromise (Youth and expats speak English fluently, older generation speaks Russian; Georgian is difficult)",
+  "housing_rent": "Cheap / Moderate (~350–450 € in Batumi/Tbilisi, free market, easy to rent without a residence permit)",
+  "price_sources": {
+    "summary": "[Numbeo Batumi](https://www.numbeo.com/cost-of-living/in/Batumi) (1-bedroom rent outside centre `~335 €`, living/food/utilities without rent `~552 €`, of which utilities+internet `~90 €`); heating — `CLIMATE_AND_HEATING_COSTS.md` (gas \"Karma\" ~45–65 €).",
+    "numbeo_mandatory_fields": [
+      "Estimated monthly costs for a single person without rent (food, transport, basic household)",
+      "Basic utilities (Electricity, Heating, Cooling, Water, Garbage) + Internet (Broadband)",
+      "Apartment (1 bedroom) Outside of Centre"
+    ]
+  },
+  "citizenship": "10 years (Citizenship is very hard to obtain, but the annual 365-day visa-free regime removes this issue)",
+  "mortgage_expats": "Difficult (Banks lend to foreigners, but interest rates are high: 10–13% in GEL or 7–9% in foreign currency)",
+  "rent_to_buy": "Available (Very common in Batumi and Tbilisi — direct installments and buyout from major developers like Orbi, Alliance)",
+  "protection_and_aid_2026": {
+    "entry_documents": "International passport grants **2 years visa-free stay** (entry from Russia counts as emergency, possible with any Ukrainian document).",
+    "protection_status": "Refugee status (indefinite) or Humanitarian status (1 year, indefinitely renewable). Applying is optional thanks to long-term visa-free stay.",
+    "military_liable_rule_2026": "**Country is NOT in the EU. No EU directives restricting protection or sharing data of military-liable persons apply HERE.**",
+    "social_benefits": "Housing allowance: 300 GEL (~105 €) per family + 45 GEL per person monthly (program extended). Does not apply to able-bodied men aged 18–60 (except fathers of large families / persons with disabilities). One-time child benefit — 470 GEL.",
+    "housing_aid": "No free state housing (replaced by 300 GEL rent subsidy). Open-market rentals.",
+    "healthcare": "Law No. 1781 guarantees Ukrainian citizens free care: emergency aid, childbirth, vaccinations, oncology (chemo/radiotherapy), diabetes, dialysis, psychiatric and psychological care. Free medicines via Georgia's MoH and Just Help foundation.",
+    "transport": "**Completely free travel** on public transport in Tbilisi, Rustavi, and Kutaisi (just show a Ukrainian passport).",
+    "work_rights": "Any legally entered foreigner has an **automatic right to work without special permits**. Special small business tax regime (1% tax).",
+    "housing_portals": {
+      "items": [
+        "[Myhome.ge](https://www.myhome.ge/ru/) ([English version](https://www.myhome.ge/en/)) — most popular rental site (Batumi, Tbilisi). Filters by district, price, and heating type.",
+        "[SS.ge](https://home.ss.ge/ru/%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C) ([English version](https://home.ss.ge/en/real-estate)) — MyHome's main rival with a huge database from owners and agencies.",
+        "[Korter.ge](https://korter.ge/ru/) — interactive map of new builds and apartments in Tbilisi and Batumi.",
+        "[Flatio.com](https://www.flatio.com/housing/georgia/tbilisi/rentals) — monthly rentals for expats/nomads with no deposit, utilities included.",
+        "[Airbnb](https://www.airbnb.com.ua/georgia/stays/monthly) — monthly rentals with discounts for the first 2–4 weeks for safe on-site searching."
+      ],
+      "facebook_groups": "\"Apartments for rent in Tbilisi\", \"Orenda Kvartyr Batumi\" (Batumi rentals) — direct contact with owners.",
+      "telegram_channels": "Dozens of Georgia rental channels with direct apartment video tours."
+    },
+    "rent_tips": {
+      "items": [
+        "**Commission:** Realtor commission in Georgia is always paid by the **landlord**; search services are free for the tenant.",
+        "**Heating:** There is no central heating in the country. Must look for apartments with **\"Karma\"** (gas convector) or **central gas boiler/radiators** — 2–3x cheaper than heating with AC or electric heaters.",
+        "**Seasonality in Batumi:** In summer (June–August) prices jump 2–3x. Sign a **1-year contract in autumn or winter**, locking in a fixed price for all 12 months (to avoid summer hikes).",
+        "**Deposit:** Standard payment is first and last month. Deposit return terms must be clearly specified in the contract."
+      ]
+    }
+  },
+  "ua_fop_tax_budget_2026": {
+    "notes": [
+      "**Strict conditions:** net income `600 / 750 / 800 / 1 000 €/mo` after UA FOP group 3; without opening a local 1% IE (since client pays only to UA FOP); horizon >1 year."
+    ],
+    "first_183_days": "Visa-free **365 days** (reduced in 2025/2026 from 3 years to 1 year; mandatory health insurance for 30 000 GEL ≈ 50–80 €/yr) — **0 €** local taxes. Independent of TP and military registration.",
+    "legality_over_1y": "Requires a visa run (exit/re-entry to Armenia/Turkey) — carries a risk of entry refusal at the border without a TRP.",
+    "trap_after_183d_art104": "Active remote work performed **physically from Georgia** counts as **Georgian-source** income, not exempt foreign income! Without registering a local IE under **1% Small Business**, **PIT = 20%** flat (social contributions for non-residents/non-citizens = **0%**). Ukrainian 5% single tax is not credited.",
+    "budget_baseline_515": [
+      "`600 €/mo`: PIT 20% = **120 €** → net 480 € → **balance `-35 €/mo`**.",
+      "`750 €/mo`: PIT 20% = **150 €** → net 600 € → **balance `+85 €/mo`**.",
+      "`800 €/mo`: PIT 20% = **160 €** → net 640 € → **balance `+125 €/mo`**.",
+      "`1 000 €/mo`: PIT 20% = **200 €** → net 800 € → **balance `+285 €/mo`**."
+    ],
+    "verdict": "**Ideal start for the first 183 days** without TP or certificates (0% tax), but after day 183 without a local 1% IE, **20% PIT** kicks in, and after day 365 a risky visa run is needed."
+  },
+  "weather": {
+    "reference_city": "Batumi",
+    "coordinates": {
+      "lat": 41.6168,
+      "lon": 41.6367
+    },
+    "annual_mean_c": 10.3,
+    "winter_djf_c": {
+      "mean": 0.5,
+      "min": -15.4,
+      "max": 16.2
+    },
+    "spring_mam_c": {
+      "mean": 8.6,
+      "min": -8.2,
+      "max": 27.1
+    },
+    "summer_jja_c": {
+      "mean": 19.5,
+      "min": 8.7,
+      "max": 35.1
+    },
+    "autumn_son_c": {
+      "mean": 12.4,
+      "min": -2.9,
+      "max": 29.4
+    },
+    "humidity_annual_pct": 78.6,
+    "heating_months_below_15c": 8,
+    "monthly_mean_c": {
+      "jan": -0.6,
+      "feb": 0.6,
+      "mar": 3.9,
+      "apr": 8.3,
+      "may": 13.6,
+      "jun": 17.6,
+      "jul": 20.1,
+      "aug": 20.9,
+      "sep": 17.6,
+      "oct": 12.9,
+      "nov": 6.7,
+      "dec": 1.6
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=41.6168&longitude=41.6367&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=41.6168&longitude=41.6367&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "360",
+    "visa_free_days": 360,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "carrier",
+  "tax_calc_model": {
+    "label": "Georgia (UA FOP -> 20%)",
+    "rent_eur": 350,
+    "living_other_eur": 295,
+    "pit_rate": 0.2,
+    "pit_threshold": 0.0,
+    "pit_mult": 1.0,
+    "soc_rate": 0.0,
+    "soc_fixed": 0.0,
+    "tax_free_months": 6
+  }
+}

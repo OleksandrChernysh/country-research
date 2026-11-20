@@ -1,0 +1,131 @@
+{
+  "code": "ME",
+  "name": "Montenegro",
+  "low_budget_country": true,
+  "spiritual_teacher": "Monasteries / Retreats (Ostrog Monastery, ancient cloisters of Bay of Kotor, regular retreat camps)",
+  "work_strategy": "Remote (Digital Nomad Visa: official 0% local tax exemption on foreign income, or d.o.o.)",
+  "it_market": "Weak (Almost no local market; purely a hub for remote specialists and crypto entrepreneurs)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; thereafter GPPFL: 0% ≤700 €, 9% (700–1,000 €) + 13% prirez = 0–31 €/mo (risk of mandatory preduzetnik +130–170 €).",
+  "climate": "Warm (Mediterranean subtropical climate, 240+ sunny days, long swimming season)",
+  "nature": "Top Adriatic + Mountains (Crystal-clear Adriatic Sea, Bay of Kotor fjord, Durmitor mountains, Tara River canyon)",
+  "english_level": "Moderate (High English proficiency in resort towns Budva/Tivat/Kotor; Montenegrin is Slavic and intelligible)",
+  "housing_rent": "Moderate (~300–400 € Bar/Podgorica on long-term lease outside summer peak)",
+  "price_sources": {
+    "summary": "[Numbeo Montenegro](https://www.numbeo.com/cost-of-living/country_result.jsp?country=Montenegro); heating/utilities — `CLIMATE_AND_HEATING_COSTS.md` (~60–90 € winter).",
+    "numbeo_mandatory_fields": [
+      "Estimated monthly costs for a single person without rent (food, transport, basic household)",
+      "Basic utilities (Electricity, Heating, Cooling, Water, Garbage) + Internet (Broadband)",
+      "Apartment (1 bedroom) Outside of Centre"
+    ]
+  },
+  "citizenship": "10 years (Practically unattainable for foreigners without special investments)",
+  "mortgage_expats": "Difficult (Local banks do not lend to temporary residents without permanent residency)",
+  "rent_to_buy": "Rare (Only personal agreements with foreign developers or villa owners)",
+  "protection_and_aid_2026": {
+    "entry_documents": "Any document confirming Ukrainian citizenship (internal passport, ID, birth certificate). Without status — 90 days visa-free with mandatory tourist tax (1 €/day).",
+    "protection_status": "Temporary protection (1-year protection certificate, renewable). Issued by Ministry of Interior (MUP) alongside tax ID (Matični broj).",
+    "military_liable_rule_2026": "**Non-EU country. EU directive restrictions on conscripts do NOT apply to Montenegro.**",
+    "social_benefits": "Child allowance up to age 18 (30–60 €/mo), disability benefit (65.35 €/mo). One-off municipal aid for low-income residents.",
+    "housing_aid": "State hotels with meals in Bar, Sutomore, and Nikšić for those without funds or cars worth >10,000 €. Volunteer support via Pristanište. Off-season rent very cheap (150–250 €/mo).",
+    "healthcare": "Full free healthcare in state hospitals with health booklet (zdravstvena knjižica). Childbirth and prenatal care are free.",
+    "transport": "No transport discounts (official refugees only).",
+    "work_rights": "TP status automatically grants full right to work. Favorable terms for freelancers, IT (0% Nomad Visa), and small business.",
+    "housing_portals": {
+      "items": [
+        "[Realitica.com](https://www.realitica.com/rentals/Montenegro/) — main Balkan real estate database, direct owner contacts.",
+        "[Estitor.com](https://estitor.com/me) — most modern and convenient rental search in Montenegro (Bar, Budva, Podgorica).",
+        "[Indomio.me](https://www.indomio.me/for-rent) — large portal with map and detailed filters.",
+        "[Patuljak.me](https://www.patuljak.me/) — local classifieds board.",
+        "[Rent-me.me](https://rent-me.me/) — long-term and seasonal rental service."
+      ]
+    }
+  },
+  "ua_fop_tax_budget_2026": {
+    "notes": [
+      "**Strict conditions:** net income `600 / 750 / 800 / 1 000 €/mo` after UA FOP Group 3; no *preduzetnik* / `d.o.o.` registration; >1-year horizon with military deferral."
+    ],
+    "first_183_days": "TP or 90/180 visa-free — **0 €** local taxes.",
+    "legality_over_183d_with_deferral": "Montenegro aligned TP rules (until **04.03.2027**) with **EU 2026/1912**: new male applicants must prove actual residence in UA before arrival + exemption/deferral document (Reserve+ with QR). High chance of TP approval, depending on MUP interpretation. **Without TP:** Digital Nomad visa requires **1,800–2,400 €/mo** (3× min wage — unsuitable), visa-free is 90/180 only.",
+    "forms_after_183d": "Annual individual tax return **GPPFL** (by April 30).",
+    "dtt_and_rates": [
+      "Ukrainian 5% Unified Tax is not credited. Progressive individual PIT without *preduzetnik*: **0%** up to `700 €/mo` (`8 400 €/yr`), **9%** on `700–1 000 €` slice + municipal *prirez* **13%** (most cities) or **15%** (Podgorica/Cetinje) on tax amount. **PIO / FZO = 0 €** without *preduzetnik* registration (basic public healthcare applies under TP). *Year 2+ risk:* if tax office requires *preduzetnik* registration, ~130–170 €/mo social contributions apply.",
+      "`600 €/mo`: tax **0 €** → net 600 € → **balance `-70 €/mo`**.",
+      "`750 €/mo`: PIT 4.50 € + prirez 0.59 € = **5.09 €** → net 744.91 € → **balance `+74.91 €/mo`**.",
+      "`800 €/mo`: PIT 9.00 € + prirez 1.17 € = **10.17 €** → net 789.83 € → **balance `+119.83 €/mo`**.",
+      "`1 000 €/mo`: PIT 27.00 € + prirez 3.51 € = **30.51 €** → net 969.49 € → **balance `+299.49 €/mo`**."
+    ],
+    "items": [
+      "**Tax (13% *prirez*) and budget (Nikšić — cheapest: rent 350–500 €, assuming 330–350 €, winter 110 €, food 170 €, other 40 € → ~670 €/mo; in Bar 1-br starts at 450–700 € → living 770+ €):**"
+    ],
+    "verdict": "Tax-ideal, but expensive housing eats up `600–750 €` income. Makes sense for >1 year **only at 900–1,000 €/mo income**, subject to TP approval (with renewal risk after 03.2027) and rent ≤350 € in Nikšić."
+  },
+  "weather": {
+    "reference_city": "Bar",
+    "coordinates": {
+      "lat": 42.0931,
+      "lon": 19.1003
+    },
+    "annual_mean_c": 15.8,
+    "winter_djf_c": {
+      "mean": 6.9,
+      "min": -8.7,
+      "max": 18.1
+    },
+    "spring_mam_c": {
+      "mean": 14.1,
+      "min": 1.1,
+      "max": 25.6
+    },
+    "summer_jja_c": {
+      "mean": 25.2,
+      "min": 13.6,
+      "max": 36.9
+    },
+    "autumn_son_c": {
+      "mean": 16.9,
+      "min": 4.0,
+      "max": 30.0
+    },
+    "humidity_annual_pct": 69.2,
+    "heating_months_below_15c": 6,
+    "monthly_mean_c": {
+      "jan": 6.0,
+      "feb": 7.1,
+      "mar": 10.1,
+      "apr": 13.8,
+      "may": 18.3,
+      "jun": 22.9,
+      "jul": 26.2,
+      "aug": 26.4,
+      "sep": 21.5,
+      "oct": 16.7,
+      "nov": 12.3,
+      "dec": 7.6
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=42.0931&longitude=19.1003&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=42.0931&longitude=19.1003&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "carrier",
+  "tax_calc_model": {
+    "label": "Montenegro (TP, PIT only)",
+    "rent_eur": 300,
+    "living_other_eur": 360,
+    "pit_rate": 0.09,
+    "pit_threshold": 700.0,
+    "pit_mult": 1.15,
+    "soc_rate": 0.0,
+    "soc_fixed": 0.0,
+    "tax_free_months": 6
+  }
+}

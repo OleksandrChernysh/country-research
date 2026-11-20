@@ -1,0 +1,75 @@
+{
+  "code": "UK",
+  "name": "United Kingdom",
+  "low_budget_country": false,
+  "spiritual_teacher": "Tony Parsons, Rupert Spira (Active community)",
+  "work_strategy": "Remote (Due to high prices and taxes, it is more advantageous to work from outside)",
+  "it_market": "Excellent (Largest IT market and startup ecosystem in Europe)",
+  "ua_fop_and_local_taxes": "First 183 days €0 (if non-resident under SRT); thereafter 20–45% Income Tax + National Insurance; Ukrainian 5% Single Tax is not credited under DTT.",
+  "climate": "Rainy (Temperate, but often overcast, little sun)",
+  "nature": "Ocean & Hills (Scottish Highlands are beautiful, but the sea is cold)",
+  "english_level": "Native (English-speaking environment)",
+  "housing_rent": "Expensive (High rents, especially in London and surrounding areas)",
+  "citizenship": "6 years (5 years on a work visa + 1 year in ILR status)",
+  "mortgage_expats": "Difficult (Requires ILR status or a very large down payment)",
+  "rent_to_buy": "Difficult (Government Shared Ownership/Rent to Buy programs exist, but hard for expats to access)",
+  "weather": {
+    "reference_city": "London",
+    "coordinates": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "annual_mean_c": 10.4,
+    "winter_djf_c": {
+      "mean": 4.4,
+      "min": -7.3,
+      "max": 14.6
+    },
+    "spring_mam_c": {
+      "mean": 9.1,
+      "min": -2.7,
+      "max": 23.7
+    },
+    "summer_jja_c": {
+      "mean": 16.8,
+      "min": 5.5,
+      "max": 31.9
+    },
+    "autumn_son_c": {
+      "mean": 11.1,
+      "min": -1.5,
+      "max": 24.2
+    },
+    "humidity_annual_pct": 84.6,
+    "heating_months_below_15c": 9,
+    "monthly_mean_c": {
+      "jan": 4.1,
+      "feb": 4.3,
+      "mar": 6.1,
+      "apr": 9.0,
+      "may": 12.3,
+      "jun": 15.5,
+      "jul": 17.6,
+      "aug": 17.3,
+      "sep": 14.7,
+      "oct": 11.3,
+      "nov": 7.3,
+      "dec": 4.8
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=51.5074&longitude=-0.1278&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=51.5074&longitude=-0.1278&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "visa required",
+    "visa_free_days": 0,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard",
+  "iso_alpha2": "GB"
+}

@@ -1,0 +1,74 @@
+{
+  "code": "DE",
+  "name": "Germany",
+  "low_budget_country": false,
+  "spiritual_teacher": "Karl Renz (Regular satsangs in Germany/Berlin)",
+  "work_strategy": "Hybrid / Remote (Easy legalization via Blue Card)",
+  "it_market": "Top in the EU (Largest job and corporate market in Europe)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; thereafter 14–45% PIT + expensive mandatory health insurance (GKV/PKV); Ukrainian 5% single tax is not credited under DTT.",
+  "climate": "Temperate (Grey, cloudy winter, but no extreme frosts)",
+  "nature": "Alps in the south (Access to high mountains in the south; cold sea in the north)",
+  "english_level": "Compromise (English in IT, but German is needed for apartments and bureaucracy)",
+  "housing_rent": "Severe crisis (Acute shortage and apartment viewings/competitions in Berlin/Munich)",
+  "citizenship": "5 years (New 2024 law, dual citizenship allowed)",
+  "mortgage_expats": "Difficult (Requires permanent contract; taxes/fees ~10-15% in cash)",
+  "rent_to_buy": "Almost none (Mietkauf is extremely rare in residential real estate)",
+  "weather": {
+    "reference_city": "Berlin",
+    "coordinates": {
+      "lat": 52.52,
+      "lon": 13.405
+    },
+    "annual_mean_c": 9.7,
+    "winter_djf_c": {
+      "mean": 0.2,
+      "min": -20.6,
+      "max": 13.4
+    },
+    "spring_mam_c": {
+      "mean": 9.0,
+      "min": -6.3,
+      "max": 26.5
+    },
+    "summer_jja_c": {
+      "mean": 19.6,
+      "min": 6.7,
+      "max": 37.5
+    },
+    "autumn_son_c": {
+      "mean": 9.8,
+      "min": -3.7,
+      "max": 25.9
+    },
+    "humidity_annual_pct": 79.8,
+    "heating_months_below_15c": 8,
+    "monthly_mean_c": {
+      "jan": -0.7,
+      "feb": 0.4,
+      "mar": 3.7,
+      "apr": 9.1,
+      "may": 14.1,
+      "jun": 18.3,
+      "jul": 20.5,
+      "aug": 19.9,
+      "sep": 15.3,
+      "oct": 9.7,
+      "nov": 4.6,
+      "dec": 0.9
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=52.52&longitude=13.405&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=52.52&longitude=13.405&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "carrier"
+}

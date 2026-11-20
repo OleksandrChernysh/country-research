@@ -1,0 +1,168 @@
+{
+  "code": "BG",
+  "name": "Bulgaria",
+  "low_budget_country": true,
+  "spiritual_teacher": "Peter Deunov / White Brotherhood (Sacred Rila Lakes, rich esoteric heritage, regular Advaita retreats)",
+  "work_strategy": "Hybrid / Remote (7.5% freelancer tax or 10% corporate tax; Temporary Protection issued in 1 day)",
+  "it_market": "Medium (Large outsourcing hub in Sofia, international offices, but lower salaries than Western Europe)",
+  "ua_fop_and_local_taxes": "First 183 days €0; after 183 days 27.8% social contributions on €620.20 min base (€172.42 fixed) + 7.5% eff. PIT = €200–230/mo; Single Tax not credited under DTT.",
+  "price_sources": {
+    "summary": "[Numbeo Bulgaria](https://www.numbeo.com/cost-of-living/country_result.jsp?country=Bulgaria); heating/utilities — `CLIMATE_AND_HEATING_COSTS.md` (~€90–140 winter).",
+    "numbeo_mandatory_fields": [
+      "Estimated monthly costs for a single person without rent (food, transport, basic household)",
+      "Basic utilities (Electricity, Heating, Cooling, Water, Garbage) + Internet (Broadband)",
+      "Apartment (1 bedroom) Outside of Centre"
+    ]
+  },
+  "climate": [
+    "Temperate maritime on the coast (Varna/Burgas), continental inland.",
+    "*Annual mean T°:* +13.0°C.",
+    "*Winter:* day +5...+8°C, night -2...+2°C (strong sea winds, occasional frost).",
+    "*Spring:* day +11...+19°C, night +4...+10°C.",
+    "*Summer:* day +26...+29°C, night +17...+20°C (sea +24°C).",
+    "*Autumn:* day +15...+23°C, night +7...+13°C.",
+    "*Heating season:* 4.5–5 months (November–March). AC/radiator heating costs ~€90–140/mo (notable expense)."
+  ],
+  "nature": "Sea, Mountains, Coniferous forests (Black Sea — Varna/Burgas; high mountains — Rhodopes, Rila, Pirin)",
+  "english_level": "Moderate (Fluent in Sofia, Varna, and IT; Bulgarian or Russian in daily life/government offices)",
+  "housing_rent": "Very cheap. On the coast (Varna, Burgas, or quiet Balchik/Dobrich 80 km from Constanta) off-peak rent is ~€250–320 for a 1-bedroom; in Plovdiv ~€280–340; easy entry without lengthy background checks.",
+  "citizenship": "10 years (5 years TRP/TP + 5 years PRP, or standard naturalization)",
+  "mortgage_expats": "Moderate (Banks lend to residents with official income at 2.8–3.8% APR)",
+  "rent_to_buy": "Rare (Available in new coastal resort complexes via direct developer agreement)",
+  "protection_and_aid_2026": {
+    "entry_documents": "Biometric passport. On first exit from frontline zones, entry is possible with an old passport, ID, driver's license, or birth certificate. Exiting Bulgaria (except to Ukraine) — biometric ONLY!",
+    "protection_status": "Temporary Protection (Vremenna zakrila) until March 4, 2027. Issued at Ministry of Interior offices in 15 minutes.",
+    "military_liable_rule_2026": "**From 31.07.2026, EU countries do not grant protection to conscription-eligible men without proof of legal exit and deferment.**",
+    "social_benefits": "One-time social welfare grant (Social Assistance Directorate) — 375 BGN (~€190) per family (frequent denials). Red Cross aid — 125 BGN/mo per person for 3 months for vulnerable groups.",
+    "housing_aid": "Free hotel accommodation ended. State facilities are overcrowded; before placement, applicants go to a temporary camp in Elhovo (up to 30 days, Spartan conditions). 1-year lease requires 1–2 months deposit.",
+    "healthcare": "State covers mandatory health insurance (zdravna osigurovka) for the first 90 days (entire TP duration for minors and pensioners). After 90 days, €14.5/mo (28.40 BGN), paid directly to NRA. Mandatory registration with a GP (lichen lekar).",
+    "transport": "Free public transit for Ukrainians with TP applies ONLY in Sofia (metro and surface transport). Standard fares in other cities.",
+    "work_rights": "Automatic right to work without special permits. Registration at the Employment Agency.",
+    "housing_portals": {},
+    "local_portals": {
+      "items": [
+        "[Imot.bg](https://www.imot.bg/) — #1 real estate site in Bulgaria (Varna, Burgas, Sofia, Plovdiv). Largest long-term rental database.",
+        "[Alo.bg](https://www.alo.bg/obiavi/imoti-naemi/) — huge local classifieds portal (most direct-from-owner listings).",
+        "[BulgarIMOT.bg](https://bulgarimot.bg/en/bulgaria/for-rent/) — reliable platform with detailed listings and remote assistance.",
+        "[Homes.bg](https://www.homes.bg/) — large database of current rental listings.",
+        "[OLX.bg](https://www.olx.bg/nedvizhimi-imoti/naemi/) — popular classifieds board direct from owners with no commission."
+      ]
+    },
+    "monthly_expat_rentals": {
+      "items": [
+        "[Flatio.com](https://www.flatio.com/i/apartments-for-rent-bulgaria) — verified furnished apartments for remote work (Varna, Sofia, Bansko) with no hidden fees.",
+        "[Airbnb Monthly](https://www.airbnb.com.ua/bulgaria/stays/monthly) — discounts for 28+ day stays, utilities and Wi-Fi included (ideal for first weeks)."
+      ]
+    },
+    "coastal_agencies": {
+      "items": [
+        "[Bulgarian Properties](https://www.bulgarianproperties.com/rent_properties/) — one of the largest agencies for year-round and seasonal rentals.",
+        "[BolgarskiyDom](https://ua.bolgarskiydom.com/) — specializes in foreign clients on the 1st–2nd sea lines.",
+        "[Domaza.ua](https://www.domaza.ua/%D0%BE%D1%80%D0%B5%D0%BD%D0%B4%D0%B0_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B8_%D0%B2_%D0%B1%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D1%96%D1%97_%D0%B1%D1%96%D0%BB%D1%8F_%D0%BC%D0%BE%D1%80%D1%8F/) — international coastal rental portal."
+      ]
+    },
+    "rent_tips": {
+      "items": [
+        "**Fake listings:** Sites often have artificially low 'bait prices' from unscrupulous brokers ('already rented, but we have pricier ones'). Benchmark against market rates (~€250–320 for 1-bedroom).",
+        "**Utilities:** Electricity, water, and internet are almost never included. Winter AC heating can produce high electricity bills.",
+        "**'Taksa poddruzhka' (Maintenance fee):** In gated coastal resort complexes, always clarify upfront who pays the complex maintenance fee (pool, security, elevator) — it can be €20–50/mo.",
+        "**Facebook groups:** Many owners rent commission-free via Bulgarian queries (*'naem bez posrednik'*, *'kvartiri pod naem'*) and local expat rental groups. Never send a deposit without a signed contract."
+      ]
+    }
+  },
+  "ua_fop_tax_budget_2026": {
+    "notes": [
+      "**Strict conditions:** income `€600 / €750 / €800 / €1,000/mo` net after UA FOP Group 3; >1 year horizon factoring in deferment."
+    ],
+    "first_183_days": "TP or 90/180 visa-free — **€0** local taxes.",
+    "legality_over_183d_with_deferral": "Covered by **EU 2026/1912** (TP until 04.03.2027); men need proof of legal exit and deferment. Without TP, Nomad/D-visa is unavailable at €600–1,000.",
+    "taxes_and_contrib_2026": "",
+    "social_contrib_27_8_pct": "mandatory minimum for self-employed (*svobodna profesiya*) on **€620.20/mo** min base (from 01.08.2026; was €550.66 until July) = **€172.42/mo fixed** (even at €600 income).",
+    "pit": "10% after 25% statutory deduction (effectively **7.5%**) minus social contributions. Ukrainian 5% Single Tax is not credited.",
+    "budget_baseline_535": [
+      "`€600/mo`: Soc €172.42 + PIT €27.76 = **€200.18** → net €399.82 → **balance `-€135.18/mo`**.",
+      "`€750/mo`: Soc €172.42 + PIT €39.01 = **€211.43** → net €538.57 → **balance `+€3.57/mo`**.",
+      "`€800/mo`: Soc €172.42 + PIT €42.76 = **€215.18** → net €584.82 → **balance `+€49.82/mo`**.",
+      "`€1,000/mo`: Soc €172.42 + PIT €57.76 = **€230.18** → net €769.82 → **balance `+€234.82/mo`**."
+    ],
+    "verdict": "**Unprofitable at €600–800/mo** due to high fixed social contribution `€172.42/mo`; suitable only as a transit up to 183 days."
+  },
+  "weather": {
+    "reference_city": "Varna",
+    "coordinates": {
+      "lat": 43.2141,
+      "lon": 27.9147
+    },
+    "annual_mean_c": 13.9,
+    "winter_djf_c": {
+      "mean": 4.9,
+      "min": -8.2,
+      "max": 15.4
+    },
+    "spring_mam_c": {
+      "mean": 11.3,
+      "min": 0.4,
+      "max": 22.8
+    },
+    "summer_jja_c": {
+      "mean": 23.5,
+      "min": 15.2,
+      "max": 33.1
+    },
+    "autumn_son_c": {
+      "mean": 15.7,
+      "min": 5.4,
+      "max": 26.2
+    },
+    "humidity_annual_pct": 77.0,
+    "heating_months_below_15c": 6,
+    "monthly_mean_c": {
+      "jan": 3.9,
+      "feb": 4.6,
+      "mar": 7.1,
+      "apr": 10.5,
+      "may": 16.3,
+      "jun": 21.5,
+      "jul": 24.3,
+      "aug": 24.7,
+      "sep": 20.8,
+      "oct": 15.6,
+      "nov": 10.8,
+      "dec": 6.0
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=43.2141&longitude=27.9147&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=43.2141&longitude=27.9147&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "fallback_budget": {
+    "city": "Plovdiv / Varna",
+    "rent_eur": "~350",
+    "living_eur": "~580",
+    "min_total_eur": "~930",
+    "medicine_logistics": "Good (Nova Poshta, buses)"
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "fast",
+  "tax_calc_model": {
+    "label": "Bulgaria (TP, min base)",
+    "rent_eur": 280,
+    "living_other_eur": 360,
+    "pit_rate": 0.1,
+    "pit_threshold": 0.0,
+    "pit_mult": 1.0,
+    "pit_base_scale": 0.75,
+    "pit_deduct_soc": true,
+    "soc_rate": 0.0,
+    "soc_fixed": 172.42,
+    "tax_free_months": 6
+  }
+}

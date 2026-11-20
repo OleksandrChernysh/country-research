@@ -1,0 +1,73 @@
+{
+  "code": "IN",
+  "name": "India",
+  "low_budget_country": true,
+  "nature": "🟡 Ocean (Goa) or highest mountains (Himalayas), though unsanitary conditions can be mentally taxing",
+  "housing_rent": "~150 € (Goa / Himalayas)",
+  "fallback_budget": {
+    "city": "Goa / Himalayas",
+    "rent_eur": "~150",
+    "living_eur": "~280",
+    "min_total_eur": "~430",
+    "visa_effort": "Visa runs, low comfort",
+    "medicine_logistics": "Local medication equivalent with local prescription required"
+  },
+  "weather": {
+    "reference_city": "Goa",
+    "coordinates": {
+      "lat": 15.2993,
+      "lon": 74.124
+    },
+    "annual_mean_c": 25.2,
+    "winter_djf_c": {
+      "mean": 24.1,
+      "min": 11.8,
+      "max": 37.5
+    },
+    "spring_mam_c": {
+      "mean": 28.5,
+      "min": 16.9,
+      "max": 42.1
+    },
+    "summer_jja_c": {
+      "mean": 24.4,
+      "min": 20.1,
+      "max": 33.1
+    },
+    "autumn_son_c": {
+      "mean": 23.7,
+      "min": 14.8,
+      "max": 32.9
+    },
+    "humidity_annual_pct": 70.9,
+    "heating_months_below_15c": 0,
+    "monthly_mean_c": {
+      "jan": 23.7,
+      "feb": 25.9,
+      "mar": 27.9,
+      "apr": 29.2,
+      "may": 28.5,
+      "jun": 25.2,
+      "jul": 24.1,
+      "aug": 23.8,
+      "sep": 23.9,
+      "oct": 23.9,
+      "nov": 23.1,
+      "dec": 22.8
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=15.2993&longitude=74.124&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=15.2993&longitude=74.124&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "e-visa",
+    "visa_free_days": 0,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "blocked"
+}

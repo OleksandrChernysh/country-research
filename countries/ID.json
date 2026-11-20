@@ -1,0 +1,73 @@
+{
+  "code": "ID",
+  "name": "Indonesia",
+  "low_budget_country": false,
+  "nature": "🟢 Ideal recreation: ocean, volcanoes, jungle (Bali)",
+  "housing_rent": "~400 € (Bali)",
+  "fallback_budget": {
+    "city": "Bali",
+    "rent_eur": "~400",
+    "living_eur": "~700",
+    "min_total_eur": "~1 100",
+    "visa_effort": "Very expensive",
+    "medicine_logistics": "Local medication equivalent with local prescription required"
+  },
+  "weather": {
+    "reference_city": "Denpasar (Bali)",
+    "coordinates": {
+      "lat": -8.6705,
+      "lon": 115.2126
+    },
+    "annual_mean_c": 25.1,
+    "winter_djf_c": {
+      "mean": 25.6,
+      "min": 22.2,
+      "max": 33.0
+    },
+    "spring_mam_c": {
+      "mean": 25.5,
+      "min": 21.2,
+      "max": 30.7
+    },
+    "summer_jja_c": {
+      "mean": 23.8,
+      "min": 19.2,
+      "max": 29.6
+    },
+    "autumn_son_c": {
+      "mean": 25.4,
+      "min": 20.6,
+      "max": 32.7
+    },
+    "humidity_annual_pct": 83.4,
+    "heating_months_below_15c": 0,
+    "monthly_mean_c": {
+      "jan": 25.5,
+      "feb": 25.5,
+      "mar": 25.7,
+      "apr": 25.7,
+      "may": 25.1,
+      "jun": 24.3,
+      "jul": 23.5,
+      "aug": 23.4,
+      "sep": 24.4,
+      "oct": 25.6,
+      "nov": 26.3,
+      "dec": 25.9
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=-8.6705&longitude=115.2126&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.6705&longitude=115.2126&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "visa on arrival",
+    "visa_free_days": 0,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "blocked"
+}

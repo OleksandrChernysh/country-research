@@ -1,0 +1,74 @@
+{
+  "code": "US",
+  "name": "USA",
+  "low_budget_country": false,
+  "spiritual_teacher": "Ram Tzu, Adyashanti (Many local teachers)",
+  "work_strategy": "Remote (B2B contracts from Europe due to inability to obtain a visa)",
+  "it_market": "World's top (Silicon Valley, highest salaries and technology)",
+  "ua_fop_and_local_taxes": "Federal PIT + 15.3% Self-Employment tax (plus state tax); Ukrainian 5% Single Tax is not credited under DTT.",
+  "climate": "Diverse (From sunny California to freezing winters in Boston)",
+  "nature": "Top Nature (Both oceans, huge mountains, deserts, forests)",
+  "english_level": "Native (English-speaking environment)",
+  "housing_rent": "Very expensive (Cost-of-living crisis in key IT hubs)",
+  "citizenship": "5 years (After Green Card, though obtaining a GC can take years via lotteries)",
+  "mortgage_expats": "Difficult (Requires at least 2+ years of local credit history)",
+  "rent_to_buy": "Rare (Depends on the state, uncommon in hot IT markets)",
+  "weather": {
+    "reference_city": "Austin",
+    "coordinates": {
+      "lat": 30.2672,
+      "lon": -97.7431
+    },
+    "annual_mean_c": 20.2,
+    "winter_djf_c": {
+      "mean": 10.4,
+      "min": -7.6,
+      "max": 30.4
+    },
+    "spring_mam_c": {
+      "mean": 20.2,
+      "min": 0.3,
+      "max": 37.4
+    },
+    "summer_jja_c": {
+      "mean": 29.3,
+      "min": 17.5,
+      "max": 44.1
+    },
+    "autumn_son_c": {
+      "mean": 20.8,
+      "min": 1.9,
+      "max": 37.4
+    },
+    "humidity_annual_pct": 68.7,
+    "heating_months_below_15c": 3,
+    "monthly_mean_c": {
+      "jan": 9.3,
+      "feb": 11.4,
+      "mar": 15.9,
+      "apr": 20.2,
+      "may": 24.3,
+      "jun": 28.2,
+      "jul": 29.5,
+      "aug": 30.1,
+      "sep": 26.3,
+      "oct": 21.0,
+      "nov": 15.1,
+      "dec": 10.4
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=30.2672&longitude=-97.7431&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=30.2672&longitude=-97.7431&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "visa required",
+    "visa_free_days": 0,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard"
+}

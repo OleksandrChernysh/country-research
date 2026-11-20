@@ -1,0 +1,91 @@
+{
+  "code": "AM",
+  "name": "Armenia",
+  "low_budget_country": false,
+  "spiritual_teacher": "George Gurdjieff (Caucasus roots), ancient Christian monasteries (Geghard, Tatev, Etchmiadzin)",
+  "work_strategy": "Remote (Sole proprietorship for IT with 5% or 1.5% turnover tax; 180-day visa-free stay)",
+  "it_market": "Medium (Active expat IT cluster in Yerevan)",
+  "ua_fop_and_local_taxes": "First 183 days €0; after 183 days 20% PIT as an individual (UA FOP 5% Single Tax not credited under DTT; without local IE registration).",
+  "climate": "Temperate (Continental, hot dry summer, snowy winter in Yerevan)",
+  "nature": "Mountains, Lake Sevan, Canyons (Scenic plateaus and gorges; landlocked)",
+  "english_level": "Good (Russian widely understood, English in IT and among youth)",
+  "housing_rent": "Moderate (~€400–550 in Yerevan)",
+  "citizenship": "3 years (One of the fastest timelines, but requires a language exam)",
+  "mortgage_expats": "Difficult",
+  "rent_to_buy": "Rare",
+  "protection_and_aid_2026": {
+    "entry_documents": "Visa-free entry with internal or international passport for 180 days.",
+    "protection_status": "No EU-style temporary protection. Refugee status can be obtained on general grounds (2-year Convention travel document).",
+    "military_liable_rule_2026": "**NOT an EU country. EU conscription and protection directives DO NOT APPLY HERE.**",
+    "social_benefits": "State subsidies only for recognized refugees (family allowance, child benefits).",
+    "housing_aid": "The state does not provide housing placement. NGO 'Syunik-Zargatsum' offers help in Yeghegnadzor (guesthouse, office, transfer).",
+    "healthcare": "Free primary and emergency care, child care with a social card / refugee card.",
+    "transport": "No discounts; Yerevan public transit fare is 100 AMD (~10 UAH).",
+    "work_rights": "Refugees have the right to work without a special permit; a 'Refugee Qualification Passport' can be obtained.",
+    "housing_portals": {
+      "items": [
+        "[List.am](https://www.list.am/category/56) — main classifieds site with 90% of all Yerevan rental listings.",
+        "[Estate.am](https://www.estate.am/) — agency portal for verified real estate.",
+        "[Banali.am](https://banali.am/en) — modern long-term rental platform."
+      ]
+    }
+  },
+  "weather": {
+    "reference_city": "Yerevan",
+    "coordinates": {
+      "lat": 40.1792,
+      "lon": 44.4991
+    },
+    "annual_mean_c": 13.6,
+    "winter_djf_c": {
+      "mean": 1.1,
+      "min": -16.4,
+      "max": 17.1
+    },
+    "spring_mam_c": {
+      "mean": 12.6,
+      "min": -4.8,
+      "max": 32.3
+    },
+    "summer_jja_c": {
+      "mean": 25.9,
+      "min": 9.0,
+      "max": 41.6
+    },
+    "autumn_son_c": {
+      "mean": 14.6,
+      "min": -1.8,
+      "max": 32.5
+    },
+    "humidity_annual_pct": 48.3,
+    "heating_months_below_15c": 7,
+    "monthly_mean_c": {
+      "jan": -0.3,
+      "feb": 2.3,
+      "mar": 7.5,
+      "apr": 12.5,
+      "may": 17.9,
+      "jun": 23.5,
+      "jul": 27.2,
+      "aug": 27.0,
+      "sep": 22.0,
+      "oct": 15.0,
+      "nov": 6.8,
+      "dec": 1.3
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=40.1792&longitude=44.4991&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=40.1792&longitude=44.4991&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "visa free",
+    "visa_free_days": 0,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard"
+}

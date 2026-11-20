@@ -1,0 +1,162 @@
+{
+  "code": "AL",
+  "name": "Albania",
+  "low_budget_country": true,
+  "spiritual_teacher": "Bektashi Order / Sufism (Tirana is the world center of the Bektashi Sufi order, a tradition of mystical tolerance and freedom)",
+  "work_strategy": "Remote (0% tax on small business and self-employed up to €120,000/year valid until end of 2029; Unique Permit for nomads)",
+  "it_market": "Weak (Virtually no high-paying domestic market, local services only)",
+  "ua_fop_and_local_taxes": "€0 in year 1 (Unique Permit / Law 25/2022); from year 2, 15% PIT (€90–150/mo) or Person Fizik ~€148 fixed; UA FOP Single Tax is not credited under DTT.",
+  "climate": "Warm (Mediterranean, up to 300 sunny days, mild wet winter and hot dry summer)",
+  "nature": "Top Sea + Alps (Two seas: Adriatic in the north, turquoise Ionian in the south; wild Albanian Alps)",
+  "english_level": "Difficult (Youth in Tirana speak English/Italian; in provinces and government offices, Albanian only)",
+  "housing_rent": "Cheapest (~€260–340 for a 1-bedroom near the sea in Vlora or Durres, cheapest real estate in Europe)",
+  "price_sources": {
+    "summary": "[Numbeo Vlore](https://www.numbeo.com/cost-of-living/in/Vlore) (1-bedroom rent outside centre `~€337`, living/food/utilities excl. rent `~€599`, incl. utilities+internet `~€75`); heating — `CLIMATE_AND_HEATING_COSTS.md` (~€40–70 winter).",
+    "numbeo_mandatory_fields": [
+      "Estimated monthly costs for a single person without rent (food, transport, basic household)",
+      "Basic utilities (Electricity, Heating, Cooling, Water, Garbage) + Internet (Broadband)",
+      "Apartment (1 bedroom) Outside of Centre"
+    ]
+  },
+  "citizenship": "7 years (Requires continuous residence and passing a language test)",
+  "mortgage_expats": "Unavailable (Banks do not issue loans to foreigners without permanent residency)",
+  "rent_to_buy": "Rare (Direct interest-free installment plans from Albanian developers possible)",
+  "housing_portals": {
+    "items": [
+      "[Merrjep.al](https://www.merrjep.al/njoftimet/imobiliare/me-qira) — Albania's largest classifieds site (Vlora, Saranda, Durres, Tirana).",
+      "[Indomio.al](https://www.indomio.al/en/for-rent) — leading real estate portal in English and Albanian.",
+      "[Njoftime.com](https://www.njoftime.com/) — direct listings from apartment owners.",
+      "[Century21albania.com](https://century21albania.com/en/) — chain agency guaranteeing clean contracts."
+    ]
+  },
+  "ua_fop_tax_budget_2026": {
+    "notes": [
+      "**Strict conditions:** income `€600 / €750 / €800 / €1,000/mo` net after UA FOP Group 3; without opening *Person Fizik* (or with it in year 2); >1 year horizon, regardless of TP."
+    ],
+    "legality_over_1y_no_tp": "**Unique Permit for Digital Mobile Workers** (Art. 68 of Law 79/2021). Income threshold is only **32,000 ALL/mo (≈ €320/mo)** or a 300,000 ALL (≈ €3,000) deposit. Independent of TP or military registration; issued for 1 year, renewable.",
+    "first_12_months": "*Unique Permit* holders are not considered tax residents of Albania → **€0 local taxes on foreign income**.",
+    "year_2_plus": [
+      "*Option A (without Person Fizik, personal foreign income declaration):* **15% PIT** (`€90 / €112.50 / €120 / €150/mo`).",
+      "*Option B (Person Fizik registration):* **0% PIT** up to 14M ALL/year (valid until 31.12.2029), but mandatory minimum social + health contributions on 50,000 ALL min wage = `11,500 ALL (23%) + 3,400 ALL (3.4%×2)` = **14,900 ALL/mo ≈ €148/mo** fixed."
+    ],
+    "budget_baseline_500": "",
+    "year_1_balance": "balance **`+€100 / +€250 / +€300 / +€500/mo`**.",
+    "year_2_plus_balance": "balance **`+€10 / +€137.50 / +€180 / +€350/mo`** (at €148 fixed: `-€48 / +€102 / +€152 / +€352`).",
+    "verdict": "**Top-1 option independent of TP** for 1–2+ years and **best choice for 12 months** at any €600–1,000 income. In year 2+, profitable from €750–1,000 income."
+  },
+  "telegram_guide_notes": {
+    "legalization_and_residency": {
+      "visa_free_stay": "Ukrainian citizens with a biometric passport can legally stay in Albania without a residence permit until **March 30, 2027** (when applying for TRP, a bank statement of **€5,000+** may be requested; lawyer support from €300).",
+      "digital_nomad_requirements": [
+        "Employment contract or freelance agreement with a foreign company.",
+        "Confirmed income from **~$9,800/year** *(note: Law 79/2021 specifies a 32,000 ALL/mo threshold, but in practice ~$9,800/year is often expected — verify for the specific application)*.",
+        "Rental agreement for at least **1 year**.",
+        "Police clearance certificate and proof of qualifications (diploma / certificates).",
+        "Guide: [nomadgirl.co/albania-digital-nomad-visa-requirements-process](https://nomadgirl.co/albania-digital-nomad-visa-requirements-process/) | Tax residency (OECD): [Albania-Tax-Residency.pdf](https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-residency/Albania-Tax-Residency.pdf)."
+      ],
+      "other_residency_grounds": [
+        "*Sole proprietor / business:* registration in Albania, commercial lease/floor plan, 1-year residential lease, business plan, diploma, Albanian bank account, accountant.",
+        "*Real estate:* at least 50% ownership, title deed, area from 30 m² for 1 person (or 20 m²/person for a family), no minimum investment amount, passport valid ≥15 mo, proof of source of funds.",
+        "*Official employment:* employment contract with a local employer (permit arranged by employer), 1-year lease, diploma.",
+        "*Family reunification:* PRP after 5 years, citizenship after another 2 years."
+      ]
+    },
+    "rent_and_startup_costs": {
+      "owner_rental_sites": "[Irea.al](https://irea.al/), [Indomio.al](https://www.indomio.al/), [Duashpi.al](https://duashpi.al/).",
+      "prices_and_entry_cost": "rent starts from **€200/mo** (depends on location and condition). Standard move-in costs via a realtor: **1st month + 2 months deposit + 50% realtor fee** (e.g., at €550 rent, move-in costs €1,925)."
+    },
+    "groceries_markets_living": {
+      "supermarkets": [
+        "*Big Market* (most popular chain, reasonable prices), *Conad* (Italian goods, above-average prices), *Eco Market*, *Spar*.",
+        "Markets in Vlora (Google Maps): [veg/fruit/fish](https://maps.app.goo.gl/WTUTUMzmanU4nnhn6?g_st=ipc), [meat/fish market](https://maps.app.goo.gl/h2yZFj2wVpTvvvfX8?g_st=ipc), [veg/fruit](https://maps.app.goo.gl/53Wj5tb4Xt5SuXyK9?g_st=ipc)."
+      ],
+      "items": [
+        "**Butcher shops (*Mise*):** fresh meat and poultry (free mincing/steak cutting on the spot).",
+        "**Markets (*Tregu*):** seasonal vegetables, fruits, greens, olives, homemade cheese 2–3x cheaper than supermarkets."
+      ],
+      "seismic_risk": "the country is seismically active — earthquakes occur (4.5 magnitude tremors recorded; last major one in Durres was 6.5). Worth considering when choosing floor and building year."
+    },
+    "contacts_and_logistics": {
+      "transport_ua_al": "Oleksandr — `@albania_ua`",
+      "vlore": "Ukrainian space `@TheCornerStudioVlore` (cinema, Mafia game, workshops), beauty salon `teia_space_vlore` (Inst), tours/trips `@odyssey_travels`",
+      "durres": "auto service/mechanic `@SupraSasha`, PC/laptop repair `@laptopfixdurres`, dentist Senem (`+355 69 985 3219`)",
+      "tirana": "tour guide Eva (`+355 69 245 2917`), dental clinic *Unident Clinic* (`+355 69 808 0117`)",
+      "taxi": "Danyl (`@DanilReg`), Serhii (`@skokun`)"
+    },
+    "locations_and_cuisine": {
+      "top5_vlore": "[bridges on water](https://maps.app.goo.gl/dCgGZE5BbYycGAnQ6?g_st=com.google.maps.preview.copy), [monastery in reserve](https://maps.app.goo.gl/DC116yA7VEbzjJHf6?g_st=com.google.maps.preview.copy), [Zvernec lighthouse](https://maps.app.goo.gl/j4Unvfx8Mmeoo59w8?g_st=com.google.maps.preview.copy), [viewpoint](https://maps.app.goo.gl/NroxNu4947g9oJ7f8?g_st=com.google.maps.preview.copy), [history museum](https://maps.app.goo.gl/1379H3cTpQg63iXbA?g_st=com.google.maps.preview.copy).",
+      "top20_locations": "Ksamil, Berat, Gjirokaster, Theth National Park, Lake Koman, Blue Eye spring, Butrint, Llogara Pass, Dhermi, Himara, Kruja, Shkoder, Saranda, Pogradec (Ohrid), Gjipe Beach, Grama Bay, Benja thermal springs (Permet), Cape of Rodon, Zvernec Island / Narta Lagoon, Osum Canyon.",
+      "local_cuisine": "*tave kosi*, *fasule*, *bamje*, *laktor* pie, *zgare* / *ne hell* meat, *krudo* / *saganaq* seafood, *peshkatriçe* fish, *kabuni* dessert.",
+      "video_guides": "[kindergartens/schools](https://www.instagram.com/reel/Daue5Z5hO1q), [apartment rent](https://www.instagram.com/reel/Da7lHi2hflO), [jobs](https://www.instagram.com/reel/Daxekyrh1Ro), [Vlora/beaches/currency](https://www.instagram.com/reel/DbAw6NjIxgG), [seafood prices](https://www.instagram.com/reel/Da2iYlABdUX), [veg/fruit prices](https://www.instagram.com/reel/DaiMpyCh3j3)."
+    }
+  },
+  "weather": {
+    "reference_city": "Vlore",
+    "coordinates": {
+      "lat": 40.4667,
+      "lon": 19.4897
+    },
+    "annual_mean_c": 17.2,
+    "winter_djf_c": {
+      "mean": 10.3,
+      "min": -2.6,
+      "max": 18.3
+    },
+    "spring_mam_c": {
+      "mean": 15.0,
+      "min": 4.3,
+      "max": 25.7
+    },
+    "summer_jja_c": {
+      "mean": 24.8,
+      "min": 16.7,
+      "max": 36.9
+    },
+    "autumn_son_c": {
+      "mean": 18.8,
+      "min": 8.0,
+      "max": 28.8
+    },
+    "humidity_annual_pct": 72.0,
+    "heating_months_below_15c": 5,
+    "monthly_mean_c": {
+      "jan": 9.6,
+      "feb": 10.0,
+      "mar": 12.0,
+      "apr": 14.6,
+      "may": 18.4,
+      "jun": 22.8,
+      "jul": 25.6,
+      "aug": 25.9,
+      "sep": 22.4,
+      "oct": 18.7,
+      "nov": 15.2,
+      "dec": 11.2
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=40.4667&longitude=19.4897&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=40.4667&longitude=19.4897&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": false,
+  "has_temporary_protection": false,
+  "has_low_threshold_nomad_visa": true,
+  "medicine_delivery_tier": "carrier",
+  "tax_calc_model": {
+    "label": "Albania (Nomad 12m)",
+    "rent_eur": 260,
+    "living_other_eur": 315,
+    "pit_rate": 0.0,
+    "pit_threshold": 0.0,
+    "pit_mult": 1.0,
+    "soc_rate": 0.0,
+    "soc_fixed": 157.0,
+    "tax_free_months": 12
+  }
+}

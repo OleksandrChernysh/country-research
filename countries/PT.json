@@ -1,0 +1,94 @@
+{
+  "code": "PT",
+  "name": "Portugal",
+  "low_budget_country": false,
+  "spiritual_teacher": "Mooji (Monte Sahaja ashram, frequent satsangs in the south)",
+  "work_strategy": "Hybrid / Remote (Comfortable living, great climate, community)",
+  "it_market": "Medium (Growing market, though salaries are lower than major European hubs)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; then progressive PIT + Segurança Social contributions; Ukrainian 5% single tax is not credited under DTT.",
+  "climate": "Warm (Lots of sun, mild short winter, best climate in the EU)",
+  "nature": "Ocean and hills (Atlantic access, top for surfing, mountains available)",
+  "english_level": "Easy (High English proficiency among youth and in services; local language not mandatory)",
+  "housing_rent": "Expensive (High prices for locals, but quite affordable on an IT salary)",
+  "citizenship": "5 years (One of the fastest in the EU; dual citizenship allowed)",
+  "mortgage_expats": "Accessible (Banks are expat-friendly, lending up to 70–80% LTV)",
+  "rent_to_buy": "Available (Arrendamento com opção de compra — deals can be found where part of rent goes toward down payment)",
+  "protection_and_aid_2026": {
+    "entry_documents": "Any document proving citizenship. 90/180-day visa-free entry. Biometric passport required for air travel.",
+    "protection_status": "Temporary protection for 1 year with extensions. Three key numbers are issued automatically: NIF (tax), NISS (social security), and NSNS (healthcare).",
+    "military_liable_rule_2026": "**From 31.07.2026, EU countries do not grant protection to conscription-liable persons without proof of legal exit and deferral.**",
+    "social_benefits": "Support for unemployed low-income individuals (RSI) — 189 €/mo per adult, 94.5 € per child. Stipend for Portuguese language courses (4.25 €/day for meals + 1.70 €/hr for study).",
+    "housing_aid": "Temporary reception center in Lisbon for initial days. State rent subsidy 'Porta de Entrada' (Gateway) for 18 to 30 months (state covers most of the rent).",
+    "healthcare": "National Health Service (SNS) is virtually free, on par with citizens. A platform of Ukrainian-speaking doctors operates.",
+    "transport": "One free CP train trip from the border to the settlement destination.",
+    "work_rights": "Automatic right to work. Support via IEFP employment centers.",
+    "housing_portals": {
+      "items": [
+        "[Idealista.pt](https://www.idealista.pt/arrendar-casas/) — absolute #1 portal in Portugal with alert notifications.",
+        "[Imovirtual.com](https://www.imovirtual.com/arrendar/) — second-largest national real estate portal.",
+        "[Casa.sapo.pt](https://casa.sapo.pt/alugar-apartamentos/) — popular platform with a large selection of apartments.",
+        "[OLX.pt](https://www.olx.pt/imoveis/apartamentos-casas-a-venda/apartamentos-arrenda/) — direct rentals from owners.",
+        "[Uniplaces.com](https://www.uniplaces.com/) — rentals for expats without needing a local guarantor (fiador).",
+        "[Flatio.com](https://www.flatio.com/i/apartments-for-rent-portugal) — monthly rentals for digital nomads."
+      ]
+    }
+  },
+  "weather": {
+    "reference_city": "Porto",
+    "coordinates": {
+      "lat": 41.1579,
+      "lon": -8.6291
+    },
+    "annual_mean_c": 15.2,
+    "winter_djf_c": {
+      "mean": 10.7,
+      "min": 0.8,
+      "max": 18.7
+    },
+    "spring_mam_c": {
+      "mean": 13.9,
+      "min": 4.3,
+      "max": 28.0
+    },
+    "summer_jja_c": {
+      "mean": 19.6,
+      "min": 11.5,
+      "max": 34.6
+    },
+    "autumn_son_c": {
+      "mean": 16.5,
+      "min": 7.8,
+      "max": 29.1
+    },
+    "humidity_annual_pct": 79.1,
+    "heating_months_below_15c": 6,
+    "monthly_mean_c": {
+      "jan": 10.5,
+      "feb": 10.6,
+      "mar": 12.1,
+      "apr": 13.7,
+      "may": 15.9,
+      "jun": 18.4,
+      "jul": 19.9,
+      "aug": 20.3,
+      "sep": 19.4,
+      "oct": 16.9,
+      "nov": 13.2,
+      "dec": 11.1
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=41.1579&longitude=-8.6291&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=41.1579&longitude=-8.6291&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard"
+}

@@ -1,0 +1,84 @@
+{
+  "code": "ES",
+  "name": "Spain",
+  "low_budget_country": false,
+  "spiritual_teacher": "Retreats (Visiting teachers; no world-renowned local masters)",
+  "work_strategy": "Hybrid / Remote (Ideal for living thanks to climate and prices)",
+  "it_market": "Good (Strong hubs in Barcelona, Madrid, and Malaga)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; thereafter 19–45% PIT + mandatory Autónomo social contributions (~230–300+ €/mo); Ukrainian 5% single tax is not credited under DTT.",
+  "climate": "Warm (Sunny, ideal for living, though summers can get very hot)",
+  "nature": "Sea, Ocean, Mountains (Pyrenees, Mediterranean Sea, Atlantic Ocean in the north)",
+  "english_level": "Difficult (Low English proficiency; Spanish is mandatory for daily life and bureaucracy)",
+  "housing_rent": "Moderate crisis (Prices are rising, but no multi-year queues like in the north)",
+  "citizenship": "10 years (Long path; formally requires renouncing previous citizenship)",
+  "mortgage_expats": "Accessible (70-80% LTV for non-residents and TRP holders)",
+  "rent_to_buy": "Common (Alquiler con opción a compra is a very popular legal mechanism on the market)",
+  "housing_portals": {
+    "items": [
+      "[Idealista.com](https://www.idealista.com/alquiler-viviendas/) — Spain's main real estate portal (Malaga, Valencia, Canary Islands).",
+      "[Fotocasa.es](https://www.fotocasa.es/es/alquiler/viviendas) — strong alternative with verified listings.",
+      "[Habitaclia.com](https://www.habitaclia.com/alquiler.htm) — very popular in Mediterranean regions.",
+      "[Pisos.com](https://www.pisos.com/alquiler/) — large catalog of long-term rentals.",
+      "[Milanuncios.com](https://www.milanuncios.com/alquiler-de-pisos/) — classifieds board with the most direct listings from owners.",
+      "[Spotahome.com](https://www.spotahome.com/) — verified online monthly rentals for foreigners."
+    ]
+  },
+  "weather": {
+    "reference_city": "Malaga",
+    "coordinates": {
+      "lat": 36.7213,
+      "lon": -4.4214
+    },
+    "annual_mean_c": 18.0,
+    "winter_djf_c": {
+      "mean": 13.2,
+      "min": 4.8,
+      "max": 20.8
+    },
+    "spring_mam_c": {
+      "mean": 16.0,
+      "min": 8.7,
+      "max": 25.4
+    },
+    "summer_jja_c": {
+      "mean": 23.4,
+      "min": 16.8,
+      "max": 32.7
+    },
+    "autumn_son_c": {
+      "mean": 19.2,
+      "min": 11.7,
+      "max": 27.7
+    },
+    "humidity_annual_pct": 74.2,
+    "heating_months_below_15c": 4,
+    "monthly_mean_c": {
+      "jan": 12.9,
+      "feb": 12.9,
+      "mar": 14.2,
+      "apr": 15.7,
+      "may": 18.2,
+      "jun": 21.4,
+      "jul": 24.1,
+      "aug": 24.6,
+      "sep": 22.3,
+      "oct": 19.6,
+      "nov": 15.8,
+      "dec": 13.8
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=36.7213&longitude=-4.4214&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=36.7213&longitude=-4.4214&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "standard"
+}

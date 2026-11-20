@@ -1,0 +1,90 @@
+{
+  "code": "SI",
+  "name": "Slovenia",
+  "low_budget_country": false,
+  "spiritual_teacher": "Retreats / Yoga centers (Quiet Alpine corners)",
+  "work_strategy": "Remote / Hybrid (Normirani s.p. — 4% effective tax up to a certain threshold)",
+  "it_market": "Small (Local hub in Ljubljana)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; then 16–50% PIT + social contributions; Ukrainian 5% single tax is not credited under DTT.",
+  "climate": "Temperate / Alpine (Warm summers, snowy winters, short sea coastline)",
+  "nature": "Top Nature (Julian Alps, Lake Bled, Bohinj, emerald Soča River, Adriatic coast at Piran)",
+  "english_level": "Good (High English proficiency; Slovenian is a Slavic language)",
+  "housing_rent": "Expensive (~500–700 € for a 1-bed in Ljubljana/Maribor)",
+  "citizenship": "10 years",
+  "mortgage_expats": "Difficult",
+  "rent_to_buy": "None",
+  "protection_and_aid_2026": {
+    "entry_documents": "Any document proving citizenship. Police registration within 3 days.",
+    "protection_status": "Temporary protection (1 year, renewable). An EMŠO number is assigned.",
+    "military_liable_rule_2026": "**From 31.07.2026, EU countries do not grant protection to conscription-liable persons without proof of legal exit and deferral.**",
+    "social_benefits": "Pocket money 125 €/mo in centers; rent allowance from 125 to 420 € per month (depending on family size).",
+    "housing_aid": "Reception center in Logatec. Hard to rent, though state rent subsidy is available.",
+    "healthcare": "Mandatory basic insurance covers emergency care and checkups; completely free for children under 18.",
+    "transport": "Since 01.01.2024, all public transport is paid.",
+    "work_rights": "Automatic right to work with TP card. Demand for engineers, IT specialists, and blue-collar workers.",
+    "housing_portals": {
+      "items": [
+        "[Nepremicnine.net](https://www.nepremicnine.net/) — absolute monopoly and main real estate portal in Slovenia.",
+        "[Bolha.com](https://www.bolha.com/nepremicnine) — largest Slovenian classifieds board (direct listings from owners)."
+      ]
+    }
+  },
+  "weather": {
+    "reference_city": "Ljubljana",
+    "coordinates": {
+      "lat": 46.0569,
+      "lon": 14.5058
+    },
+    "annual_mean_c": 9.4,
+    "winter_djf_c": {
+      "mean": -0.4,
+      "min": -18.3,
+      "max": 15.0
+    },
+    "spring_mam_c": {
+      "mean": 8.8,
+      "min": -7.8,
+      "max": 25.0
+    },
+    "summer_jja_c": {
+      "mean": 19.1,
+      "min": 5.1,
+      "max": 35.3
+    },
+    "autumn_son_c": {
+      "mean": 9.7,
+      "min": -5.8,
+      "max": 25.7
+    },
+    "humidity_annual_pct": 81.2,
+    "heating_months_below_15c": 9,
+    "monthly_mean_c": {
+      "jan": -1.2,
+      "feb": -0.1,
+      "mar": 4.0,
+      "apr": 9.0,
+      "may": 13.5,
+      "jun": 17.8,
+      "jul": 19.9,
+      "aug": 19.6,
+      "sep": 14.5,
+      "oct": 9.7,
+      "nov": 4.9,
+      "dec": 0.1
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=46.0569&longitude=14.5058&format=JSON",
+      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=46.0569&longitude=14.5058&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "visa_free_days": 90,
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "carrier"
+}
