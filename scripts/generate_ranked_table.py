@@ -38,6 +38,7 @@ def row_str(c: dict, pos: int) -> str:
 def main():
     rankings = load_json(RANKINGS_PATH, {})
     ai_ranks = load_json(AI_RANKINGS_PATH, {})
+    has_ai = bool(ai_ranks)
     countries = []
     for path in glob.glob(os.path.join(DIR, "*.json")):
         with open(path, encoding="utf-8") as fh:
@@ -47,17 +48,12 @@ def main():
         c["auto_rank"] = r.get("auto_rank", 999)
         c["auto_score"] = r.get("auto_score", 0)
         c["score_breakdown"] = r.get("score_breakdown", {})
-        c["ai_rank"] = ai_ranks.get(code, 999)
+        c["ai_rank"] = ai_ranks.get(code, "—") if has_ai else "—"
         countries.append(c)
 
-    by_script = sorted(countries, key=lambda c: (c["auto_rank"], c["ai_rank"]))
-    by_ai = sorted(countries, key=lambda c: (c["ai_rank"], c["auto_rank"]))
-    by_combined = sorted(
-        countries,
-        key=lambda c: (0.5 * c["auto_rank"] + 0.5 * c["ai_rank"], -c["auto_score"]),
-    )
+    by_script = sorted(countries, key=lambda c: (c["auto_rank"], c["code"]))
 
-    lines = ["# Country Rankings (Script + AI + Combined)", ""]
+    lines = ["# Country Rankings", ""]
     lines += [
         "## 1. Script Ranking (`score_countries.py`)",
         "",
@@ -67,30 +63,39 @@ def main():
     for c in by_script:
         lines.append(row_str(c, c["auto_rank"]))
 
-    lines += [
-        "",
-        "## 2. AI Ranking (`output/ai_rankings.json`)",
-        "",
-        "| AI # | Code | Country | Script Score (`B/C/L/T/M`) | AI # | Low Budget | Visa UA | Weather (Ann/Win) |",
-        "|---:|:---:|---|---:|---:|:---:|:---:|---:|",
-    ]
-    for c in by_ai:
-        lines.append(row_str(c, c["ai_rank"]))
+    if has_ai:
+        by_ai = sorted(countries, key=lambda c: (c["ai_rank"] if isinstance(c["ai_rank"], int) else 999, c["auto_rank"]))
+        by_combined = sorted(
+            countries,
+            key=lambda c: (0.5 * c["auto_rank"] + 0.5 * (c["ai_rank"] if isinstance(c["ai_rank"], int) else 999), -c["auto_score"]),
+        )
+        lines += [
+            "",
+            "## 2. AI Ranking (`output/ai_rankings.json`)",
+            "",
+            "| AI # | Code | Country | Script Score (`B/C/L/T/M`) | AI # | Low Budget | Visa UA | Weather (Ann/Win) |",
+            "|---:|:---:|---|---:|---:|:---:|:---:|---:|",
+        ]
+        for c in by_ai:
+            lines.append(row_str(c, c["ai_rank"]))
 
-    lines += [
-        "",
-        "## 3. Combined Final Table (50% Script + 50% AI)",
-        "",
-        "| Final # | Code | Country | Script Score (`B/C/L/T/M`) | AI # | Low Budget | Visa UA | Weather (Ann/Win) |",
-        "|---:|:---:|---|---:|---:|:---:|:---:|---:|",
-    ]
-    for idx, c in enumerate(by_combined, 1):
-        lines.append(row_str(c, idx))
+        lines += [
+            "",
+            "## 3. Combined Final Table (50% Script + 50% AI)",
+            "",
+            "| Final # | Code | Country | Script Score (`B/C/L/T/M`) | AI # | Low Budget | Visa UA | Weather (Ann/Win) |",
+            "|---:|:---:|---|---:|---:|:---:|:---:|---:|",
+        ]
+        for idx, c in enumerate(by_combined, 1):
+            lines.append(row_str(c, idx))
+    else:
+        lines += ["", "> Note: `output/ai_rankings.json` not found — AI and Combined 50/50 tables omitted."]
 
     os.makedirs(OUT_DIR, exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:
         fh.write("\n".join(lines) + "\n")
-    print(f"Generated {OUT} with 3 tables (30 countries each).")
+    table_count = 3 if has_ai else 1
+    print(f"Generated {OUT} with {table_count} table(s) ({len(countries)} countries).")
 
 
 if __name__ == "__main__":

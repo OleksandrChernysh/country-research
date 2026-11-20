@@ -2,6 +2,7 @@
 """Fetch multi-year climate normals from NASA POWER API using coordinates stored in countries/*.json."""
 
 import concurrent.futures
+from datetime import date
 import glob
 import json
 import os
@@ -23,11 +24,6 @@ def fetch_city_weather(path: str) -> tuple[str, dict]:
     nasa_url = (
         "https://power.larc.nasa.gov/api/temporal/climatology/point"
         f"?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude={lat}&longitude={lon}&format=JSON"
-    )
-    open_meteo_url = (
-        "https://archive-api.open-meteo.com/v1/archive"
-        f"?latitude={lat}&longitude={lon}&start_date=2025-01-01&end_date=2025-12-31"
-        "&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
     )
     with urllib.request.urlopen(nasa_url, timeout=20) as resp:
         raw = json.loads(resp.read().decode())
@@ -55,7 +51,7 @@ def fetch_city_weather(path: str) -> tuple[str, dict]:
         "monthly_mean_c": {m.lower(): round(t_mean[m], 1) for m in MONTHS},
         "api_sources": {
             "nasa_power_climatology": nasa_url,
-            "open_meteo_archive": open_meteo_url,
+            "fetched_at": date.today().isoformat(),
         },
     }
     return path, weather

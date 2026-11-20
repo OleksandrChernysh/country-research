@@ -114,14 +114,14 @@
   "has_low_threshold_nomad_visa": false,
   "medicine_delivery_tier": "fast",
   "tax_calc_model": {
-    "label": "Moldova (TP, 12% PIT)",
+    "label": "Moldova (TP, 12% PIT + CNAM)",
     "rent_eur": 320,
     "living_other_eur": 325,
     "pit_rate": 0.12,
-    "pit_threshold": 0.0,
+    "pit_threshold": 127.0,
     "pit_mult": 1.0,
     "soc_rate": 0.0,
-    "soc_fixed": 0.0,
+    "soc_fixed": 54.0,
     "tax_free_months": 6
   }
 }

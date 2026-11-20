@@ -111,15 +111,15 @@
   "has_low_threshold_nomad_visa": false,
   "medicine_delivery_tier": "standard",
   "tax_calc_model": {
-    "label": "Bosnia FBiH (no TP)",
+    "label": "Bosnia FBiH (AMS-1035, no TP)",
     "rent_eur": 230,
     "living_other_eur": 300,
-    "pit_rate": 0.1,
+    "pit_rate": 0.1088,
     "pit_threshold": 0.0,
     "pit_mult": 1.0,
-    "pit_deduct_soc": true,
+    "pit_deduct_soc": false,
     "soc_rate": 0.0,
-    "soc_fixed": 310.0,
+    "soc_fixed": 0.0,
     "tax_free_months": 6
   }
 }

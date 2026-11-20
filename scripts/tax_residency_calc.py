@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Tax residency and net-balance calculator reading .env + tax_calc_model from countries/*.json."""
 
+import argparse
 import glob
 import json
 import os
@@ -25,11 +26,15 @@ def load_env(path: str) -> Dict[str, str]:
     return env
 
 
-def calculate_country(model: Dict, env: Dict[str, str]) -> Dict:
+def calculate_country(model: Dict, env: Dict[str, str], tax_base_override: float | None = None) -> Dict:
     net_after_ua = float(env.get("NET_AFTER_UA_EUR") or 1500.0)
-    tax_base_eur = float(env.get("TAX_BASE_EUR") or 1500.0)
+    tax_base_eur = tax_base_override if tax_base_override is not None else float(env.get("TAX_BASE_EUR") or 1500.0)
 
     local_soc = float(model.get("soc_fixed", 0.0)) + float(model.get("soc_rate", 0.0)) * tax_base_eur
+    soc_threshold = model.get("soc_threshold_eur")
+    if soc_threshold is not None and tax_base_eur >= float(soc_threshold):
+        local_soc += float(model.get("soc_fixed_above_threshold", 0.0))
+
     pit_base = tax_base_eur * float(model.get("pit_base_scale", 1.0)) - float(model.get("pit_threshold", 0.0))
     if model.get("pit_deduct_soc"):
         pit_base -= local_soc
@@ -57,7 +62,13 @@ def calculate_country(model: Dict, env: Dict[str, str]) -> Dict:
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Tax residency & net-balance calculator")
+    parser.add_argument("--base", type=float, default=None, help="Override TAX_BASE_EUR for boundary checks (e.g. 600, 750, 1000, 1500)")
+    args = parser.parse_args()
+
     env = load_env(ENV_PATH)
+    base_used = args.base if args.base is not None else float(env.get("TAX_BASE_EUR") or 1500.0)
+    print(f"Note: TAX_BASE_EUR={base_used:.0f}. Initial tax-free months assume lawful stay and work authorization.")
     print("| Country | Tax-free (mo) | Living+Fixed (EUR) | Net 0% tax (EUR) | Local Tax+Soc (EUR) | Eff % | Net after Res (EUR) |")
     print("|---|---:|---:|---:|---:|---:|---:|")
 
@@ -67,7 +78,7 @@ def main():
         model = data.get("tax_calc_model")
         if not model:
             continue
-        r = calculate_country(model, env)
+        r = calculate_country(model, env, tax_base_override=args.base)
         print(
             f"| {r['name']} | {r['tax_free_months']} | {r['living_total']:.0f} | "
             f"{r['net_first_period']:+.0f} | {r['local_tax_total']:.2f} | "

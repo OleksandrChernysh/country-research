@@ -79,8 +79,8 @@
     "contacts_and_logistics": {
       "transport_ua_al": "Oleksandr — `@albania_ua`",
       "vlore": "Ukrainian space `@TheCornerStudioVlore` (cinema, Mafia game, workshops), beauty salon `teia_space_vlore` (Inst), tours/trips `@odyssey_travels`",
-      "durres": "auto service/mechanic `@SupraSasha`, PC/laptop repair `@laptopfixdurres`, dentist Senem (`+355 69 985 3219`)",
-      "tirana": "tour guide Eva (`+355 69 245 2917`), dental clinic *Unident Clinic* (`+355 69 808 0117`)",
+      "durres": "auto service/mechanic `@SupraSasha`, PC/laptop repair `@laptopfixdurres`, local dental clinics",
+      "tirana": "local tour guides and dental clinic *Unident Clinic*",
       "taxi": "Danyl (`@DanilReg`), Serhii (`@skokun`)"
     },
     "locations_and_cuisine": {
@@ -149,14 +149,14 @@
   "has_low_threshold_nomad_visa": true,
   "medicine_delivery_tier": "carrier",
   "tax_calc_model": {
-    "label": "Albania (Nomad 12m)",
+    "label": "Albania (Nomad 12m -> Y2 15% PIT)",
     "rent_eur": 260,
     "living_other_eur": 315,
-    "pit_rate": 0.0,
+    "pit_rate": 0.15,
     "pit_threshold": 0.0,
     "pit_mult": 1.0,
     "soc_rate": 0.0,
-    "soc_fixed": 157.0,
+    "soc_fixed": 0.0,
     "tax_free_months": 12
   }
 }

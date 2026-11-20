@@ -135,15 +135,17 @@
   "has_low_threshold_nomad_visa": false,
   "medicine_delivery_tier": "fast",
   "tax_calc_model": {
-    "label": "Romania (TP, full ANAF)",
+    "label": "Romania (TP, ANAF CASS+PIT, CAS>=750)",
     "rent_eur": 300,
     "living_other_eur": 379,
     "pit_rate": 0.1,
     "pit_threshold": 0.0,
     "pit_mult": 1.0,
     "pit_deduct_soc": true,
-    "soc_rate": 0.0,
-    "soc_fixed": 290.0,
+    "soc_rate": 0.1,
+    "soc_fixed": 0.0,
+    "soc_threshold_eur": 750.0,
+    "soc_fixed_above_threshold": 194.71,
     "tax_free_months": 6
   }
 }

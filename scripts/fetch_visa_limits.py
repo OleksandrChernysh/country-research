@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Fetch passport visa-free limits from ilyankou/passport-index-dataset using ISO codes in countries/*.json."""
 
+from datetime import date
 import csv
 import glob
 import io
@@ -12,6 +13,19 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ENV_PATH = os.path.join(ROOT, ".env")
 COUNTRIES_DIR = os.path.join(ROOT, "countries")
 DATASET_URL = "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+
+
+def classify_requirement(req: str) -> tuple[int | None, str]:
+    if req.isdigit():
+        return int(req), "visa_free"
+    low = req.lower()
+    if low == "e-visa":
+        return None, "e_visa"
+    if low == "visa on arrival":
+        return None, "visa_on_arrival"
+    if low == "visa required":
+        return 0, "visa_required"
+    return None, "unknown"
 
 
 def load_origin_passport(path: str) -> str:
@@ -41,10 +55,12 @@ def main():
             data = json.load(fh)
         iso = data.get("iso_alpha2", data["code"])
         req = reqs.get(iso, "unknown")
-        days = int(req) if req.isdigit() else 0
+        days, req_type = classify_requirement(req)
         data["visa_ua"] = {
             "requirement": req,
+            "requirement_type": req_type,
             "visa_free_days": days,
+            "fetched_at": date.today().isoformat(),
             "source": DATASET_URL,
         }
         with open(path, "w", encoding="utf-8") as fh:
