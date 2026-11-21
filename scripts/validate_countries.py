@@ -33,6 +33,13 @@ def validate_file(path: str) -> tuple[list[str], list[str]]:
         if key not in data:
             errors.append(f"{name}: missing required key '{key}'")
 
+    if "low_budget_country" in data and not isinstance(data["low_budget_country"], bool):
+        errors.append(f"{name}: low_budget_country must be a boolean")
+    if "weather" in data and not isinstance(data["weather"], dict):
+        errors.append(f"{name}: weather must be an object")
+    if "visa_ua" in data and not isinstance(data["visa_ua"], dict):
+        errors.append(f"{name}: visa_ua must be an object")
+
     model = data.get("tax_calc_model")
     if model is not None:
         if not isinstance(model, dict):
@@ -41,11 +48,19 @@ def validate_file(path: str) -> tuple[list[str], list[str]]:
             for key in TAX_MODEL_KEYS:
                 if key not in model:
                     errors.append(f"{name}: tax_calc_model missing '{key}'")
+            for num_key in ("rent_eur", "living_other_eur", "tax_free_months"):
+                val = model.get(num_key)
+                if val is not None and (isinstance(val, bool) or not isinstance(val, (int, float)) or val < 0):
+                    errors.append(f"{name}: tax_calc_model.{num_key} must be a non-negative number")
+            pit_rate = model.get("pit_rate")
+            if pit_rate is not None and (isinstance(pit_rate, bool) or not isinstance(pit_rate, (int, float)) or not (0 <= pit_rate <= 1)):
+                errors.append(f"{name}: tax_calc_model.pit_rate must be between 0 and 1")
 
     if EMAIL_RE.findall(raw):
         warnings.append(f"{name}: contains email-like string(s)")
-    if PHONE_RE.findall(raw):
-        errors.append(f"{name}: contains phone number(s): {PHONE_RE.findall(raw)}")
+    phone_matches = PHONE_RE.findall(raw)
+    if phone_matches:
+        errors.append(f"{name}: contains {len(phone_matches)} phone-like string(s)")
 
     return errors, warnings
 

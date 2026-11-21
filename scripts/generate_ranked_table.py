@@ -28,9 +28,10 @@ def row_str(c: dict, pos: int) -> str:
     v = c.get("visa_ua", {}).get("requirement", "—")
     b = c.get("score_breakdown", {})
     brk = f"{b.get('budget',0)}/{b.get('climate',0)}/{b.get('legal',0)}/{b.get('tax',0)}/{b.get('medicine',0)}"
+    elig = "✅" if c.get("eligible", True) else f"❌ ({', '.join(c.get('ineligible_reasons', [])) or 'ineligible'})"
     return (
         f"| {pos} | `{c['code']}` | [{c['name']}](../countries/{c['code']}.json) | "
-        f"**{c.get('auto_score', 0)}** (`{brk}`) | #{c.get('ai_rank', '—')} | "
+        f"{elig} | **{c.get('auto_score', 0)}** (`{brk}`) | #{c.get('ai_rank', '—')} | "
         f"{lb} | `{v}` | {ann}° / {win}° |"
     )
 
@@ -48,6 +49,8 @@ def main():
         c["auto_rank"] = r.get("auto_rank", 999)
         c["auto_score"] = r.get("auto_score", 0)
         c["score_breakdown"] = r.get("score_breakdown", {})
+        c["eligible"] = r.get("eligible", True)
+        c["ineligible_reasons"] = r.get("ineligible_reasons", [])
         c["ai_rank"] = ai_ranks.get(code, "—") if has_ai else "—"
         countries.append(c)
 
@@ -57,8 +60,8 @@ def main():
     lines += [
         "## 1. Script Ranking (`score_countries.py`)",
         "",
-        "| Script # | Code | Country | Score (`B/C/L/T/M`) | AI # | Low Budget | Visa UA | Weather (Ann/Win) |",
-        "|---:|:---:|---|---:|---:|:---:|:---:|---:|",
+        "| Script # | Code | Country | Eligible | Score (`B/C/L/T/M`) | AI # | Low Budget | Visa UA | Weather (Ann/Win) |",
+        "|---:|:---:|---|---:|---:|---:|:---:|:---:|---:|",
     ]
     for c in by_script:
         lines.append(row_str(c, c["auto_rank"]))
@@ -73,8 +76,8 @@ def main():
             "",
             "## 2. AI Ranking (`output/ai_rankings.json`)",
             "",
-            "| AI # | Code | Country | Script Score (`B/C/L/T/M`) | AI # | Low Budget | Visa UA | Weather (Ann/Win) |",
-            "|---:|:---:|---|---:|---:|:---:|:---:|---:|",
+            "| AI # | Code | Country | Eligible | Script Score (`B/C/L/T/M`) | AI # | Low Budget | Visa UA | Weather (Ann/Win) |",
+            "|---:|:---:|---|---:|---:|---:|:---:|:---:|---:|",
         ]
         for c in by_ai:
             lines.append(row_str(c, c["ai_rank"]))
@@ -83,8 +86,8 @@ def main():
             "",
             "## 3. Combined Final Table (50% Script + 50% AI)",
             "",
-            "| Final # | Code | Country | Script Score (`B/C/L/T/M`) | AI # | Low Budget | Visa UA | Weather (Ann/Win) |",
-            "|---:|:---:|---|---:|---:|:---:|:---:|---:|",
+            "| Final # | Code | Country | Eligible | Script Score (`B/C/L/T/M`) | AI # | Low Budget | Visa UA | Weather (Ann/Win) |",
+            "|---:|:---:|---|---:|---:|---:|:---:|:---:|---:|",
         ]
         for idx, c in enumerate(by_combined, 1):
             lines.append(row_str(c, idx))

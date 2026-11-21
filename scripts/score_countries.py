@@ -64,7 +64,9 @@ def score_country(c: dict, env: dict[str, str]) -> dict:
 
     # 3. Military + Visa / >183d Stay Legality (max 20)
     requires_dereg = bool(c.get("requires_military_deregistration", False))
-    visa_days = c.get("visa_ua", {}).get("visa_free_days") or 0
+    visa_ua = c.get("visa_ua", {})
+    visa_days = visa_ua.get("visa_free_days") or 0
+    req_type = visa_ua.get("requirement_type")
     is_eu = bool(c.get("is_eu", False))
     has_tp = bool(c.get("has_temporary_protection", False))
     has_low_nomad = bool(c.get("has_low_threshold_nomad_visa", False))
@@ -78,13 +80,17 @@ def score_country(c: dict, env: dict[str, str]) -> dict:
         legal_pts = 14
     elif has_tp and is_eu:
         legal_pts = 10
+    elif req_type == "unknown":
+        legal_pts = 0
+    elif req_type in ("e_visa", "visa_on_arrival"):
+        legal_pts = -5
     elif visa_days <= 30 or not has_tp:
         legal_pts = -15
     else:
         legal_pts = 0
 
-    if prefer_non_eu and not is_eu:
-        legal_pts += 5
+    if prefer_non_eu and not is_eu and not (avoid_mil_rule and requires_dereg):
+        legal_pts = min(20, legal_pts + 5)
 
     # 4. UA FOP tax load >183d (max 15) — prefer structured tax_calc_model over text heuristics
     model = c.get("tax_calc_model")
@@ -101,11 +107,14 @@ def score_country(c: dict, env: dict[str, str]) -> dict:
         local_pit = max(0.0, pit_base) * float(model.get("pit_rate", 0.0)) * float(model.get("pit_mult", 1.0))
         local_tax = local_pit + local_soc
         eff_pct = (local_tax / tax_base) * 100.0 if tax_base else 0.0
-        if model.get("tax_free_months", 0) >= 12 or eff_pct <= 5.0:
+        horizon_months = max(1, int(float(env.get("TAX_HORIZON_MONTHS") or 36)))
+        tax_free_months = max(0, min(horizon_months, int(model.get("tax_free_months", 0))))
+        horizon_eff_pct = eff_pct * ((horizon_months - tax_free_months) / horizon_months)
+        if horizon_eff_pct <= 5.0:
             tax_pts = 15
-        elif eff_pct <= 15.0:
+        elif horizon_eff_pct <= 15.0:
             tax_pts = 10
-        elif eff_pct <= 22.0:
+        elif horizon_eff_pct <= 22.0:
             tax_pts = 7
         else:
             tax_pts = 2
