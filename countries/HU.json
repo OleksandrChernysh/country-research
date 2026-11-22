@@ -1,0 +1,115 @@
+{
+  "code": "HU",
+  "name": "Hungary",
+  "low_budget_country": false,
+  "spiritual_teacher": "Christian monasteries (Pannonhalma Archabbey, Benedictine & Franciscan traditions) and Budapest philosophical circles",
+  "work_strategy": "Remote via Temporary Protection (menedékes) or local egyéni vállalkozó (KATA is B2C-only; B2B uses átalányadózás / standard EV). White Card nomad visa requires 3,000 €/mo.",
+  "it_market": "Strong (Budapest is a major Central European tech & R&D hub: Bosch, Ericsson, GoTo, banks; English working language in IT)",
+  "ua_fop_and_local_taxes": "First 183 days 0 €; after 183 days worldwide income taxed: 15% flat PIT (SZJA) + 18.5% TB + 13% SZOCHO (31.5% social on min base ≥322,800 HUF/mo ≈ 281 €/mo fixed floor; KATA is B2C-only).",
+  "climate": "Continental (warm summers, cold winters with ~7 heating months below 15°C).",
+  "nature": "Danube River, Lake Balaton, Bükk & Mátra hills, thermal springs",
+  "english_level": "Moderate (High in Budapest IT/corporate bubble; strictly Hungarian in government offices, healthcare, and small towns)",
+  "housing_rent": "Moderate / High (Country avg 1-bed outside centre ~390–410 €, Budapest ~550–580 €)",
+  "price_sources": {
+    "summary": "[Numbeo Hungary](https://www.numbeo.com/cost-of-living/country_result.jsp?country=Hungary) (1-bedroom outside centre ~150,909 HUF / ~400 € country avg, ~211,842 HUF / ~565 € Budapest; single person living without rent ~695 €).",
+    "numbeo_mandatory_fields": [
+      "Estimated monthly costs for a single person without rent (food, transport, basic household)",
+      "Basic utilities (Electricity, Heating, Cooling, Water, Garbage) + Internet (Broadband)",
+      "Apartment (1 bedroom) Outside of Centre"
+    ]
+  },
+  "citizenship": "8 years standard naturalization (Hungarian language & constitutional exam required); 3 years if married to HU citizen or parent of HU minor",
+  "mortgage_expats": "Possible with permanent residence permit + lakcímkártya (address card) + 30–45 day property purchase permit for non-EU nationals",
+  "rent_to_buy": "Rare (Mainly standard market rentals or developer installments)",
+  "protection_and_aid_2026": {
+    "entry_documents": "Ukrainian passport or ID. Under EU Temporary Protection Directive Article 7, Hungary grants menedékes status to military-age Ukrainian men without requiring military deregistration.",
+    "protection_status": "Temporary protection (menedékes státusz) — extended under EU framework through March 4, 2028; older physical cards remain valid by decree.",
+    "military_liable_rule_2026": "**EU country WITH Article 7 exception: Hungary formally notified the European Commission that it will NOT deny temporary protection to military-age Ukrainian men under EU Decision 2026/1912.**",
+    "social_benefits": "Monthly state financial living allowance for registered menedékes beneficiaries; family & municipal support.",
+    "housing_aid": "State-funded accommodation channeled mainly via contracted charities (e.g., Maltese Charity Service) and municipalities rather than open private landlord subsidies.",
+    "healthcare": "Access to state emergency and basic public healthcare upon submitting the menedékes application and receiving local ID numbers.",
+    "transport": "Local/regional public transport discounts or free passes available in several municipalities (e.g., Budapest BKK passes for Ukrainian refugees).",
+    "work_rights": "Simplified employment without a separate work permit under menedékes status.",
+    "housing_portals": {
+      "items": [
+        "[Ingatlan.com](https://ingatlan.com/) — largest Hungarian real estate portal.",
+        "[Alberlet.hu](https://www.alberlet.hu/en) — long-term apartment rentals (English interface).",
+        "[Jofogas.hu](https://www.jofogas.hu/) — local classifieds with direct owner listings."
+      ]
+    }
+  },
+  "weather": {
+    "reference_city": "Budapest",
+    "coordinates": {
+      "lat": 47.4979,
+      "lon": 19.0402
+    },
+    "annual_mean_c": 10.8,
+    "winter_djf_c": {
+      "mean": -0.6,
+      "min": -19.1,
+      "max": 16.1
+    },
+    "spring_mam_c": {
+      "mean": 10.8,
+      "min": -5.9,
+      "max": 27.8
+    },
+    "summer_jja_c": {
+      "mean": 21.9,
+      "min": 6.7,
+      "max": 38.7
+    },
+    "autumn_son_c": {
+      "mean": 10.9,
+      "min": -5.2,
+      "max": 27.3
+    },
+    "humidity_annual_pct": 74.6,
+    "heating_months_below_15c": 7,
+    "monthly_mean_c": {
+      "jan": -1.6,
+      "feb": 0.3,
+      "mar": 5.1,
+      "apr": 11.2,
+      "may": 16.2,
+      "jun": 20.5,
+      "jul": 22.8,
+      "aug": 22.3,
+      "sep": 16.8,
+      "oct": 10.8,
+      "nov": 5.1,
+      "dec": -0.4
+    },
+    "api_sources": {
+      "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=47.4979&longitude=19.0402&format=JSON",
+      "fetched_at": "2026-11-22"
+    }
+  },
+  "requires_military_deregistration": false,
+  "visa_ua": {
+    "requirement": "90",
+    "requirement_type": "visa_free",
+    "visa_free_days": 90,
+    "fetched_at": "2026-11-22",
+    "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
+  },
+  "is_eu": true,
+  "has_temporary_protection": true,
+  "has_low_threshold_nomad_visa": false,
+  "medicine_delivery_tier": "fast",
+  "tax_calc_model": {
+    "label": "Hungary (TP -> 15% PIT on 55% + min TB/SZOCHO)",
+    "rent_eur": 400,
+    "living_other_eur": 400,
+    "pit_rate": 0.15,
+    "pit_base_scale": 0.55,
+    "pit_threshold": 0.0,
+    "pit_mult": 1.0,
+    "soc_rate": 0.0,
+    "soc_fixed": 281.0,
+    "tax_free_months": 6
+  },
+  "main_religion": "christianity",
+  "main_religion_pct": 72.4
+}

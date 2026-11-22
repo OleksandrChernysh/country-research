@@ -68,17 +68,21 @@
     },
     "api_sources": {
       "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=-36.8485&longitude=174.7633&format=JSON",
-      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=-36.8485&longitude=174.7633&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+      "fetched_at": "2026-11-22"
     }
   },
   "requires_military_deregistration": false,
   "visa_ua": {
     "requirement": "visa required",
+    "requirement_type": "visa_required",
     "visa_free_days": 0,
+    "fetched_at": "2026-11-22",
     "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
   },
   "is_eu": false,
   "has_temporary_protection": false,
   "has_low_threshold_nomad_visa": false,
-  "medicine_delivery_tier": "standard"
+  "medicine_delivery_tier": "standard",
+  "main_religion": "unaffiliated",
+  "main_religion_pct": 51.3
 }

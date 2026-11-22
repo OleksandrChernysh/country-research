@@ -10,7 +10,8 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 COUNTRIES_DIR = os.path.join(ROOT, "countries")
 
-REQUIRED_KEYS = ("code", "name", "low_budget_country", "weather", "visa_ua")
+REQUIRED_KEYS = ("code", "name", "low_budget_country", "main_religion", "weather", "visa_ua")
+ALLOWED_RELIGIONS = {"christianity", "islam", "buddhism", "hinduism", "judaism", "unaffiliated", "other"}
 TAX_MODEL_KEYS = ("label", "rent_eur", "living_other_eur", "pit_rate", "tax_free_months")
 EMAIL_RE = re.compile(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+")
 PHONE_RE = re.compile(r"\+\d[\d\s\-()]{6,}")
@@ -35,6 +36,8 @@ def validate_file(path: str) -> tuple[list[str], list[str]]:
 
     if "low_budget_country" in data and not isinstance(data["low_budget_country"], bool):
         errors.append(f"{name}: low_budget_country must be a boolean")
+    if "main_religion" in data and (not isinstance(data["main_religion"], str) or data["main_religion"] not in ALLOWED_RELIGIONS):
+        errors.append(f"{name}: main_religion must be one of {sorted(ALLOWED_RELIGIONS)}")
     if "weather" in data and not isinstance(data["weather"], dict):
         errors.append(f"{name}: weather must be an object")
     if "visa_ua" in data and not isinstance(data["visa_ua"], dict):

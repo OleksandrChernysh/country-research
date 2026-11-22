@@ -132,7 +132,7 @@
     },
     "api_sources": {
       "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=43.2141&longitude=27.9147&format=JSON",
-      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=43.2141&longitude=27.9147&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+      "fetched_at": "2026-11-22"
     }
   },
   "fallback_budget": {
@@ -145,7 +145,9 @@
   "requires_military_deregistration": false,
   "visa_ua": {
     "requirement": "90",
+    "requirement_type": "visa_free",
     "visa_free_days": 90,
+    "fetched_at": "2026-11-22",
     "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
   },
   "is_eu": true,
@@ -164,5 +166,7 @@
     "soc_rate": 0.0,
     "soc_fixed": 172.42,
     "tax_free_months": 6
-  }
+  },
+  "main_religion": "christianity",
+  "main_religion_pct": 79.5
 }

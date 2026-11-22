@@ -37,6 +37,7 @@ def score_country(c: dict, env: dict[str, str]) -> dict:
     prefer_non_eu = env.get("PREFER_NON_EU", "false").lower() == "true"
     meds_req = env.get("MEDICINE_DELIVERY_REQUIRED", "true").lower() == "true"
     priority_climate = env.get("PRIORITY_CLIMATE", "warm_low_heating")
+    main_religion_pref = env.get("MAIN_RELIGION", "any").strip().lower()
 
     ineligible_reasons: list[str] = []
 
@@ -146,7 +147,22 @@ def score_country(c: dict, env: dict[str, str]) -> dict:
         tier = c.get("medicine_delivery_tier", "standard")
         meds_pts = MEDS_TIER_PTS.get(tier, 2)
 
-    total = budget_pts + climate_pts + legal_pts + tax_pts + meds_pts
+    # 6. Main religion filter (0 when "any" or matched, -20 + ineligible when mismatched/excluded)
+    religion_pts = 0
+    country_religion = (c.get("main_religion") or "").strip().lower()
+    if main_religion_pref and main_religion_pref != "any":
+        if main_religion_pref.startswith("exclude:"):
+            excluded = {x.strip() for x in main_religion_pref[8:].split(",") if x.strip()}
+            if country_religion in excluded:
+                religion_pts = -20
+                ineligible_reasons.append("religion_excluded")
+        else:
+            allowed = {x.strip() for x in main_religion_pref.split(",") if x.strip()}
+            if country_religion not in allowed:
+                religion_pts = -20
+                ineligible_reasons.append("religion_mismatch")
+
+    total = budget_pts + climate_pts + legal_pts + tax_pts + meds_pts + religion_pts
     return {
         "eligible": len(ineligible_reasons) == 0,
         "ineligible_reasons": ineligible_reasons,
@@ -157,6 +173,7 @@ def score_country(c: dict, env: dict[str, str]) -> dict:
             "legal": legal_pts,
             "tax": tax_pts,
             "medicine": meds_pts,
+            "religion": religion_pts,
         },
     }
 

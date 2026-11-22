@@ -24,7 +24,7 @@
   "protection_and_aid_2026": {
     "entry_documents": "Any document confirming Ukrainian citizenship (internal passport, ID, birth certificate). Without status — 90 days visa-free with mandatory tourist tax (1 €/day).",
     "protection_status": "Temporary protection (1-year protection certificate, renewable). Issued by Ministry of Interior (MUP) alongside tax ID (Matični broj).",
-    "military_liable_rule_2026": "**Non-EU country. EU directive restrictions on conscripts do NOT apply to Montenegro.**",
+    "military_liable_rule_2026": "**Despite being non-EU, on 15.10.2026 Montenegro aligned TP rules with EU 2026/1912: first-time military-age male applicants must prove prior residence in UA AND fulfilled military service or legal exemption (simple deferral / відстрочка may be rejected depending on MUP).**",
     "social_benefits": "Child allowance up to age 18 (30–60 €/mo), disability benefit (65.35 €/mo). One-off municipal aid for low-income residents.",
     "housing_aid": "State hotels with meals in Bar, Sutomore, and Nikšić for those without funds or cars worth >10,000 €. Volunteer support via Pristanište. Off-season rent very cheap (150–250 €/mo).",
     "healthcare": "Full free healthcare in state hospitals with health booklet (zdravstvena knjižica). Childbirth and prenatal care are free.",
@@ -104,13 +104,15 @@
     },
     "api_sources": {
       "nasa_power_climatology": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M&community=RE&latitude=42.0931&longitude=19.1003&format=JSON",
-      "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive?latitude=42.0931&longitude=19.1003&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean"
+      "fetched_at": "2026-11-22"
     }
   },
-  "requires_military_deregistration": false,
+  "requires_military_deregistration": true,
   "visa_ua": {
     "requirement": "90",
+    "requirement_type": "visa_free",
     "visa_free_days": 90,
+    "fetched_at": "2026-11-22",
     "source": "https://raw.githubusercontent.com/ilyankou/passport-index-dataset/master/passport-index-tidy-iso2.csv"
   },
   "is_eu": false,
@@ -127,5 +129,7 @@
     "soc_rate": 0.0,
     "soc_fixed": 0.0,
     "tax_free_months": 6
-  }
+  },
+  "main_religion": "christianity",
+  "main_religion_pct": 75.4
 }
